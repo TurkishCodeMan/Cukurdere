@@ -1,0 +1,66 @@
+/* swiper-custom.css */
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: black; /* Siyah renk */
+  opacity: 0.5; /* Şeffaflık */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  opacity: 1; /* Hover durumu için şeffaflık kaldırıldı */
+}
+
+.swiper-pagination-bullet {
+  background: black; /* Siyah renk */
+  opacity: 0.5; /* Şeffaflık */
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1; /* Aktif nokta için şeffaflık kaldırıldı */
+}
+
+
+.clip-path-right {
+  clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+}
+
+.clip-path-full {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.group:hover .clip-path-right {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.clip-path-custom {
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+}
+
+/* styles/custom_swiper.css */
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.animate-slide-down {
+  animation: slideDown 0.3s ease-in-out forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.3s ease-in-out forwards;
+}
