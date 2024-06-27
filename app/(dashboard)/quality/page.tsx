@@ -7,14 +7,7 @@ export default function Quality() {
             <p className="text-lg text-gray-700 mb-4">
               ÇUKURDERE SONDAJ olarak, iş veren memnuniyetini birinci planda tutmak, gelişmiş modern ve son teknolojik makinelerimiz ile müşterilerimizin her türlü talebini zamanında ve kusursuz karşılamayı amaçlamıştır. Hedefimiz, değişen ve büyüyen iş ağında tecrübeli kadromuzla beraber gerekli hizmetleri karşılayabilmek, sektörün en iyileri arasında yer alabilmektir. Çukurdere Sondaj’ın politikası çalışmalarını müşteri memnuniyeti ön planda olacak şekilde düzenleyip, uygulamaktır. Bu hassasiyetimizin, bize kalite ve güven sağlayacağına inanmaktayız.
             </p>
-            <h3 className="text-2xl font-semibold mb-4 text-red-800">Vizyon</h3>
-            <p className="text-lg text-gray-700 mb-4">
-              Hizmet verdiğimiz sektörde, teknolojinin getirdiği tüm imkanları uygulayan, güvenilir, iş veren odaklı ve kaliteli hizmet veren, iş veren ve çalışanlarının haklarına saygılı, sektöründe nitelikli çalışanlar yetiştiren, yenilikçi ve sürekli kendini geliştiren bir kuruluşuz.
-            </p>
-            <h3 className="text-2xl font-semibold mb-4 text-red-800">Misyon</h3>
-            <p className="text-lg text-gray-700 mb-4">
-              Profesyonelliğimiz ve takım çalışmamız ile birlikte çalıştığımız sektörün her alanında güvenilir ve kaliteli hizmet verebilecek, tanınan bir kuruluş olmaktır.
-            </p>
+           
             <h3 className="text-2xl font-semibold mb-4 text-red-800">İlkelerimiz</h3>
             <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
               <li>Çeşitlilik</li>

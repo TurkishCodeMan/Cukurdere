@@ -28,13 +28,14 @@ export default function Hero() {
         pagination={{ clickable: true }}
       >
         <SwiperSlide
-          className="bg-cover bg-center md:bg-left min-h-screen flex items-center justify-center "
+          className="bg-cover bg-center md:bg-bottom min-h-screen flex items-center justify-center "
           style={{
             backgroundImage:
-              "linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/c11.jpeg')",
+              "linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/c11.jpeg')",
+          
           }}
         >
-          <div className="md:flex md:flex-row flex flex-col ">
+          <div className="md:flex md:flex-row  flex flex-col ">
             <div
               className="md:w-1/2 w-full h-screen bg-black bg-opacity-0 flex items-center justify-center"
               style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 80%)" }}
@@ -51,7 +52,7 @@ export default function Hero() {
                 </div>
 
                 <p
-                  className="text-xl font-semibold opacity-80
+                  className="text-xl font-sans opacity-80
                    mt-4  text-white relative z-10"
                 >
                   <Bandrol />  olarak, doğru ve verimli bir çalışmanın ancak güvenli ve sağlıklı bir 
@@ -66,7 +67,7 @@ export default function Hero() {
                   <div className="absolute inset-0 bg-red-500 transition-all duration-200 ease-in-out clip-path-right group-hover:clip-path-full"></div>
                 </a>
 
-                <div className="absolute inset-0 bg-black opacity-50 blur-lg z-0"></div>
+                <div className="absolute inset-0   z-0"></div>
               </div>
             </div>
 
@@ -94,10 +95,10 @@ export default function Hero() {
           </div>
         </SwiperSlide>
         <SwiperSlide
-          className="bg-cover bg-center md:bg-left min-h-screen flex items-center justify-center "
+          className="bg-cover bg-center md:bg-bottom min-h-screen flex items-center justify-center "
           style={{
             backgroundImage:
-              "linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/c12.jpeg')",
+              "linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/c12.jpeg')",
           }}
         >
           <div className="md:flex md:flex-row flex flex-col ">
@@ -109,7 +110,7 @@ export default function Hero() {
                 
 
                 <p
-                  className="text-xl font-semibold opacity-80
+                  className="text-xl font-sans opacity-80
                    mt-4  text-white relative z-10"
                 >
                   <Bandrol /> , her zaman en iyi ekipmanları kullanarak modern
@@ -123,7 +124,7 @@ export default function Hero() {
                   <div className="absolute inset-0 bg-red-500 transition-all duration-200 ease-in-out clip-path-right group-hover:clip-path-full"></div>
                 </a>
 
-                <div className="absolute inset-0 bg-black opacity-50 blur-lg z-0"></div>
+                <div className="absolute inset-0  z-0"></div>
               </div>
             </div>
 
