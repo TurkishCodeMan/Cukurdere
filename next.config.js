@@ -20,27 +20,27 @@ module.exports = {
     return [
       {
         source: '/tr',
-        destination: '/home#references',
+        destination: '/references',
         permanent: true,
       },
       {
         source: '/tr/İletişim-2',
-        destination: '/home#contact',
+        destination: '/contact',
         permanent: true,
       },
       {
         source: '/en',
-        destination: '/home#references',
+        destination: '/references',
         permanent: true,
       },
       {
         source: '/tr/about-us',
-        destination: '/home#about',
+        destination: '/about',
         permanent: true,
       },
       {
         source: '/tr/td-750',
-        destination: '/home#machines',
+        destination: '/machines',
         permanent: true,
       },
     ]
