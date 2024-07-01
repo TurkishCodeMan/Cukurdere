@@ -52,11 +52,11 @@ const Header = () => {
             </a>
           </div>
           <nav className="hidden md:flex space-x-6 font-semibold">
-            <a href="/" className="text-black hover:text-yellow-500">
+            <a href="/" className="text-black hover:text-red-700">
               {t("home")}
             </a>
             <Menu as="div" className="relative">
-              <MenuButton className="text-black hover:text-yellow-500 flex items-center">
+              <MenuButton className="text-black hover:text-red-700flex items-center">
                 {t("corporate")}
                 <HiChevronDown className="ml-2 h-5 w-5" />
               </MenuButton>
@@ -101,19 +101,19 @@ const Header = () => {
                 </div>
               </MenuItems>
             </Menu>
-            <a href="/services" className="text-black hover:text-yellow-500">
+            <a href="/services" className="text-black hover:text-red-7000">
               {t("services")}
             </a>
-            <a href="/references" className="text-black hover:text-yellow-500">
+            <a href="/references" className="text-black hover:text-red-700">
               {t("references")}
             </a>
-            <a href="/machines" className="text-black hover:text-yellow-500">
+            <a href="/machines" className="text-black hover:text-red-700">
               {t("machines")}
             </a>
-            <a href="/isg" className="text-green-700 hover:text-yellow-500">
+            <a href="/isg" className="text-green-700 hover:text-red-700">
               {t("isg")}
             </a>
-            <a href="/contact" className="text-black hover:text-yellow-500">
+            <a href="/contact" className="text-black hover:text-red-700">
               {t("contact")}
             </a>
             <LanguageSwitcher/>
@@ -143,57 +143,57 @@ const Header = () => {
           &times;
         </button>
         <nav className="flex flex-col space-y-6 text-black text-lg font-bold">
-          <a href="/" className="hover:text-yellow-500" onClick={toggleMenu}>
+          <a href="/" className="hover:text-red-700" onClick={toggleMenu}>
             {t("home")}
           </a>
           <a
             href="/about"
-            className="hover:text-yellow-500"
+            className="hover:text-red-700"
             onClick={toggleMenu}
           >
             {t("about")}
           </a>
           <a
             href="/quality"
-            className="hover:text-yellow-500"
+            className="hover:text-red-700"
             onClick={toggleMenu}
           >
             {t("quality")}
           </a>
           <a
             href="/about"
-            className="hover:text-yellow-500"
+            className="hover:text-red-700"
             onClick={toggleMenu}
           >
             {t("vision")}
           </a>
           <a
             href="/services"
-            className=" hover:text-yellow-500"
+            className=" hover:text-red-700"
             onClick={toggleMenu}
           >
             {t("services")}
           </a>
           <a
             href="/references"
-            className=" hover:text-yellow-500"
+            className=" hover:text-red-700"
             onClick={toggleMenu}
           >
             {t("references")}
           </a>
           <a
             href="/machines"
-            className=" hover:text-yellow-500"
+            className=" hover:text-red-700"
             onClick={toggleMenu}
           >
             {t("machines")}
           </a>
-          <a href="/isg" className=" text-green-600 hover:text-yellow-500" onClick={toggleMenu}>
+          <a href="/isg" className=" text-green-600 hover:text-red-700" onClick={toggleMenu}>
             {t("isg")}
           </a>
           <a
             href="/contact"
-            className="hover:text-yellow-500"
+            className="hover:text-red-700"
             onClick={toggleMenu}
           >
             {t("contact")}
