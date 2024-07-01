@@ -196,5 +196,13 @@
   ,
   "brand": {
     "name": "Çukurdere Drilling"
+  },
+  "head": {
+    "title": "Çukurdere Sondaj - Power in the Depths!",
+    "description": "Power in the Depths!",
+    "keywords": "drilling, mining exploration, geothermal drilling, water drilling, professional solutions, largest drilling companies in Turkey",
+    "author": "Çukurdere Sondaj",
+    "canonical": "https://www.cukurderesondaj.com.tr/home",
+    "googleVerification": "GVV3xd9PB7n23bvfDQ4PEb1Lmk3GMpOM_bUhDyDEPog"
   }
 }
