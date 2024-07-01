@@ -1,11 +1,13 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { HiMiniBars3BottomRight } from "react-icons/hi2";
+import { HiMiniBars3BottomRight, HiChevronDown } from "react-icons/hi2";
 import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/react";
-import { HiChevronDown } from "react-icons/hi2";
+import { useTranslations } from "next-intl";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
+  const t = useTranslations("header");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
 
@@ -51,11 +53,11 @@ const Header = () => {
           </div>
           <nav className="hidden md:flex space-x-6 font-semibold">
             <a href="/" className="text-black hover:text-yellow-500">
-              ANA SAYFA
+              {t("home")}
             </a>
             <Menu as="div" className="relative">
               <MenuButton className="text-black hover:text-yellow-500 flex items-center">
-                KURUMSAL
+                {t("corporate")}
                 <HiChevronDown className="ml-2 h-5 w-5" />
               </MenuButton>
               <MenuItems className="absolute left-0 mt-2 w-56 origin-top-left bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
@@ -68,7 +70,7 @@ const Header = () => {
                           active ? "bg-gray-100" : ""
                         } block px-4 py-2 text-sm text-gray-700`}
                       >
-                        HAKKIMIZDA
+                        {t("about")}
                       </a>
                     )}
                   </MenuItem>
@@ -80,19 +82,19 @@ const Header = () => {
                           active ? "bg-gray-100" : ""
                         } block px-4 py-2 text-sm text-gray-700`}
                       >
-                        KALİTE POLİTİKAMIZ
+                        {t("quality")}
                       </a>
                     )}
                   </MenuItem>
                   <MenuItem>
                     {({ active }) => (
                       <a
-                        href="/about"
+                        href="/vision"
                         className={`${
                           active ? "bg-gray-100" : ""
                         } block px-4 py-2 text-sm text-gray-700`}
                       >
-                        VİZYON VE MİSYON
+                        {t("vision")}
                       </a>
                     )}
                   </MenuItem>
@@ -100,28 +102,21 @@ const Header = () => {
               </MenuItems>
             </Menu>
             <a href="/services" className="text-black hover:text-yellow-500">
-              HİZMETLER
+              {t("services")}
             </a>
             <a href="/references" className="text-black hover:text-yellow-500">
-              REFERANSLAR
+              {t("references")}
             </a>
             <a href="/machines" className="text-black hover:text-yellow-500">
-              MAKİNELER
+              {t("machines")}
             </a>
             <a href="/isg" className="text-green-700 hover:text-yellow-500">
-              İSG VE ÇEVRE
+              {t("isg")}
             </a>
             <a href="/contact" className="text-black hover:text-yellow-500">
-              İLETİŞİM
+              {t("contact")}
             </a>
-            <div className="flex space-x-4">
-              <a href="/tr" className="text-red-800 hover:text-yellow-500">
-                TR
-              </a>
-              <a href="/en" className="text-red-800 hover:text-yellow-500">
-                EN
-              </a>
-            </div>
+            <LanguageSwitcher/>
           </nav>
           <div className="md:hidden flex items-center">
             <button
@@ -149,68 +144,61 @@ const Header = () => {
         </button>
         <nav className="flex flex-col space-y-6 text-black text-lg font-bold">
           <a href="/" className="hover:text-yellow-500" onClick={toggleMenu}>
-            ANA SAYFA
+            {t("home")}
           </a>
           <a
             href="/about"
             className="hover:text-yellow-500"
             onClick={toggleMenu}
           >
-            HAKKIMIZDA
+            {t("about")}
           </a>
           <a
             href="/quality"
             className="hover:text-yellow-500"
             onClick={toggleMenu}
           >
-            KALİTE POLİTİKAMIZ
+            {t("quality")}
           </a>
           <a
             href="/about"
             className="hover:text-yellow-500"
             onClick={toggleMenu}
           >
-            VİZYON VE MİSYON
+            {t("vision")}
           </a>
           <a
             href="/services"
             className=" hover:text-yellow-500"
             onClick={toggleMenu}
           >
-            HİZMETLER
+            {t("services")}
           </a>
           <a
             href="/references"
             className=" hover:text-yellow-500"
             onClick={toggleMenu}
           >
-            REFERANSLAR
+            {t("references")}
           </a>
           <a
             href="/machines"
             className=" hover:text-yellow-500"
             onClick={toggleMenu}
           >
-            MAKİNELER
+            {t("machines")}
           </a>
           <a href="/isg" className=" text-green-600 hover:text-yellow-500" onClick={toggleMenu}>
-            İSG VE ÇEVRE
+            {t("isg")}
           </a>
           <a
             href="/contact"
             className="hover:text-yellow-500"
             onClick={toggleMenu}
           >
-            İLETİŞİM
+            {t("contact")}
           </a>
-          <div className="flex space-x-4">
-              <a href="/tr" className="text-red-800 hover:text-yellow-500">
-                TR
-              </a>
-              <a href="/en" className="text-red-800 hover:text-yellow-500">
-                EN
-              </a>
-            </div>
+          <LanguageSwitcher/>
         </nav>
       </div>
     </>

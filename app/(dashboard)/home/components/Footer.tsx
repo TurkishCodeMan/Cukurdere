@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaPhone, FaFax, FaMailBulk } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -9,17 +9,17 @@ export default function Footer() {
           {/* Müşteri Bilgileri */}
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
             <h3 className="text-lg font-bold mb-4">Müşteri Bilgileri</h3>
-            <p>
-              <span className="font-semibold">Tel:</span> +90 (501) 103 06 18
+            <p className="flex items-center">
+              <span className="font-semibold mr-2"><FaPhone size={16}/></span> +90 (501) 103 06 18
             </p>
-            <p>
-              <span className="font-semibold">Tel:</span> +90 (312) 354 33 37
+            <p className="flex items-center">
+            <span className="font-semibold mr-2"><FaPhone size={16}/></span>+90 (312) 354 33 37
             </p>
-            <p>
-              <span className="font-semibold">Fax:</span> +90 (312) 354 77 71
+            <p className="flex items-center">
+            <span className="font-semibold mr-2"><FaFax size={16}/></span> +90 (312) 354 77 71
             </p>
-            <p>
-              <span className="font-semibold">E-posta:</span>{" "}
+            <p className="flex items-center">
+            <span className="font-semibold mr-2"><FaMailBulk size={16}/></span>
               <a href="mailto:cukurdere@cukurderesondaj.com.tr" className="text-red-500">
                 cukurdere@cukurderesondaj.com.tr
               </a>

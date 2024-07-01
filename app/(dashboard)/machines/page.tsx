@@ -1,33 +1,12 @@
 'use client';
 
 import { useState } from "react";
-
-const machinesData = [
-  {
-    id: 1,
-    name: "PD-500",
-    description: "PD-500, yüksek performans ve dayanıklılık sunan bir sondaj makinesidir. Gelişmiş teknolojisi ve kullanımı kolay arayüzü ile en zorlu sondaj projelerinde bile mükemmel sonuçlar sağlar.",
-    image: "/c2.jpeg",
-    specs: "Teknik Özellikler: 5000m derinlik kapasitesi, 2000Nm tork, 250hp motor gücü.",
-  },
-  {
-    id: 2,
-    name: "Tetra 2500",
-    description: "Tetra 2500, büyük ölçekli sondaj projeleri için tasarlanmış, güçlü ve güvenilir bir makinedir. Yüksek verimliliği ve dayanıklılığı ile sektörün en çok tercih edilen modellerindendir.",
-    image: "/c11.jpeg",
-    specs: "Teknik Özellikler: 2500m derinlik kapasitesi, 3000Nm tork, 250hp motor gücü.",
-  },
-  {
-    id: 2,
-    name: "ERN 1000",
-    description: "ERN 1000, güçlü ve güvenilir bir makinedir. Yüksek verimliliği ve dayanıklılığı ile sektörün en çok tercih edilen modellerindendir.",
-    image: "/a17.png",
-    specs: "Teknik Özellikler: 2500m derinlik kapasitesi, 3000Nm tork, 250hp motor gücü.",
-  },
-];
+import { useTranslations } from 'next-intl';
 
 export default function Machines() {
-  const [selectedMachine, setSelectedMachine] = useState(null);
+  const t = useTranslations('machines');
+  const machinesData = t.raw('data');
+  const [selectedMachine, setSelectedMachine] = useState<any>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = (machine:any) => {
@@ -41,12 +20,12 @@ export default function Machines() {
   };
 
   return (
-    <section id="machines" className="min-h-screen md:py-24  bg-white">
+    <section id="machines" className="min-h-screen md:py-24 bg-white">
       <div className="container mx-auto px-4 text-center md:text-left">
-        <h2 className="text-4xl font-bold text-red-800 mb-12">Makinalarımız</h2>
+        <h2 className="text-4xl font-bold text-red-800 mb-12">{t('title')}</h2>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {machinesData.map((machine) => (
+          {machinesData.map((machine:any) => (
             <div
               key={machine.id}
               className="bg-white border border-gray-200 shadow-lg rounded-lg overflow-hidden animate-slide-in-right"
@@ -67,12 +46,42 @@ export default function Machines() {
                   onClick={() => openModal(machine)}
                   className="inline-block bg-red-500 text-white px-6 py-2 rounded hover:bg-red-700 transition-all duration-300"
                 >
-                  Daha Fazla Bilgi
+                  {t('moreInfo')}
                 </button>
               </div>
             </div>
           ))}
         </div>
+
+        {isModalOpen && selectedMachine && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+            <div className="bg-white p-8 rounded-lg max-w-lg w-full">
+              <button
+                className="absolute top-4 right-4 text-gray-500 hover:text-gray-800"
+                onClick={closeModal}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{selectedMachine.name}</h2>
+              <img src={selectedMachine.image} alt={selectedMachine.name} className="w-full h-64 object-cover mb-4 rounded-lg shadow-lg" />
+              <p className="text-lg text-gray-700 mb-4">{selectedMachine.description}</p>
+              <p className="text-lg text-gray-700 mb-4">{selectedMachine.specs}</p>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );

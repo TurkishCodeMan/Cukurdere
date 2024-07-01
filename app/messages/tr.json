@@ -1,0 +1,177 @@
+{
+  "header": {
+    "home": "ANA SAYFA",
+    "about": "HAKKIMIZDA",
+    "quality": "KALİTE POLİTİKAMIZ",
+    "vision": "VİZYON VE MİSYON",
+    "services": "HİZMETLER",
+    "references": "REFERANSLAR",
+    "machines": "MAKİNELER",
+    "isg": "İSG VE ÇEVRE",
+    "contact": "İLETİŞİM",
+    "tr": "TR",
+    "en": "EN",
+    "corporate": "KURUMSAL"
+  },
+  "hero": {
+    "text1": "Bandrol olarak, doğru ve verimli bir çalışmanın ancak güvenli ve sağlıklı bir çalışma ortamında gerçekleştirilebileceğine inanmaktayız.",
+    "text2": "Bandrol, her zaman en iyi ekipmanları kullanarak modern ve yenilikçi sondaj çözümleri sunar.",
+    "machines": "Makinalarımız",
+    "quality_policy": "Kalite Politikamız",
+    "isg_and_environment": "İSG Ve Çevre",
+    "references": "Referanslarımız",
+    "about_us": "Hakkımızda"
+  },
+  "aboutUs": {
+    "title": "Hakkımızda",
+    "whoWeAre": "Kimiz?",
+    "whoWeAreText1": "2015 yılında birikim, deneyim ve tecrübelerini Madencilik sektörüne profesyonel bir hizmet verme adına kurulmuştur. Amacı; günümüz teknolojisine uygun makine ve ekipmanları kullanarak, projeleri daha ekonomik koşullarla, kaliteli ve profesyonel kadrosuyla verimliliği en yüksek seviyeye çıkartmaktır. Sağlık, iş emniyeti ve çevre konularındaki ilkeleri benimseyerek projelerini yürütmektedir.",
+    "whoWeAreText2": "ÇUKURDERE SONDAJ hedeflerine ulaşmak için operasyonlarını yüksek standartlarda başarı ile tamamlamaktan sorumludur. Çalıştığı bölgede, toplumun gelişmesine ve yaşam tarzına, yerel çalışan personel ile saygın ilişkilerin sürdürülmesine büyük önem verir.",
+    "vision": "Vizyon",
+    "visionText": "Hizmet verdiğimiz sektörde, teknolojinin getirdiği tüm imkanları uygulayan, güvenilir, iş veren odaklı ve kaliteli hizmet veren, iş veren ve çalışanlarının haklarına saygılı, sektöründe nitelikli çalışanlar yetiştiren, yenilikçi ve sürekli kendini geliştiren bir kuruluşuz.",
+    "mission": "Misyon",
+    "missionText": "Profesyonelliğimiz ve takım çalışmamız ile birlikte çalıştığımız sektörün her alanında güvenilir ve kaliteli hizmet verebilecek, tanınan bir kuruluş olmaktır.",
+    "goals": "Başlıca Hedeflerimiz",
+    "goalsList": [
+      "Müşteri odaklı ve güvene dayalı kaliteli hizmet,",
+      "Sağlanan teknik ve yönetim hizmetlerinde sürekli verimlilik artışı,",
+      "İş güvenliğinin artırılması ve sıfır kaza,",
+      "Çevreye duyarlı çalışma ve planlama,",
+      "İş birliği ve ekip çalışmasının gelişmesi, yerleşmesi,",
+      "Yüksek verim ve kalite bilincinin yerleşmesi,",
+      "Daha güzele ve mükemmele ulaşmanın amaç haline gelmesidir."
+    ]
+  },
+  "contact": {
+    "title": "İletişim",
+    "nameLabel": "Adınız Soyadınız",
+    "namePlaceholder": "Adınız Soyadınız",
+    "emailLabel": "E-posta Adresiniz",
+    "emailPlaceholder": "E-posta Adresiniz",
+    "messageLabel": "Mesajınız",
+    "messagePlaceholder": "Mesajınız",
+    "submitButton": "Gönder"
+  },
+  "isg":{
+    "title": "İş Sağlığı ve Güvenliği",
+    "subtitle": "Çukurdere Sondaj olarak, doğru ve verimli bir çalışmanın ancak güvenli ve sağlıklı bir çalışma ortamında gerçekleştirilebileceğine inanmaktayız.",
+    "paragraph1": "Çukurdere Sondaj, tüm süreçlerde Ulusal ve Uluslararası yasal düzenlemelere, iş sağlığı ve güvenliği ile ilgili kanun, mevzuat ve diğer yükümlülüklere uymayı, sektörel ve teknolojik gelişmeleri takip ederek oluşabilecek iş kazalarını önlemeyi, iş sağlığı ve güvenliği performansını sürekli olarak geliştirmeyi, tüm ekipmanları en doğru ve en verimli şekilde kullanmayı, çalışılacak projelerin başlangıcından bitimine kadar oluşabilecek iş kazalarının önceden analiz ve değerlendirilmesini yaparak gerekli ekipmanlarla önlemler almayı en üst biriminden en alt birimine kadar tüm çalışanlarımızın iş sağlığı ve güvenliği konusunda eğitimler almasını sağlar.",
+    "paragraph2": "İş sağlığı ve güvenliği sorumluluğu oluşturmayı ve bu bilinci artırmayı hedeflemekte ve taahhüt etmektedir.",
+    "environmentalPolicyTitle": "Çevre Politikamız",
+    "environmentalPolicy": "Çukurdere Sondaj olarak, sürdürülebilir gelişme ve çevre koruma olgularından yola çıkarak tüm süreçlerde:",
+    "environmentalPoints": [
+      "Ulusal ve Uluslararası çevre ile ilgili kanun, mevzuat ve diğer yükümlülüklere uymayı,",
+      "Sektörel, bilimsel araştırmalar ile teknolojik gelişmeleri takip ederek, çevresel kirlenmeyi önlemeyi ve çevresel performansı sürekli olarak geliştirmeyi,",
+      "Doğal kaynakları korumayı ve en verimli şekilde kullanmayı,",
+      "Projelerinde başından sonuna kadar oluşan ve oluşabilecek çevresel etkileri kontrol altında tutmayı ve azaltmayı,",
+      "Çalışmalar sırasında ortaya çıkacak atıkları mümkün olduğunca azaltmayı veya geri kazanmayı,",
+      "Tüm çalışanlarımıza çevre konusunda eğitimler vererek, en üst birimden en alt birime kadar tüm çalışanlarımızın çevre sorumluluk bilincini artırmayı hedeflemekte ve taahhüt etmekteyiz."
+    ]
+  },
+  "machines": {
+    "title": "Makinalarımız",
+    "moreInfo": "Daha Fazla Bilgi",
+    "data": [
+      {
+        "id": 1,
+        "name": "PD-500",
+        "description": "PD-500, yüksek performans ve dayanıklılık sunan bir sondaj makinesidir. Gelişmiş teknolojisi ve kullanımı kolay arayüzü ile en zorlu sondaj projelerinde bile mükemmel sonuçlar sağlar.",
+        "specs": "Teknik Özellikler: 5000m derinlik kapasitesi, 2000Nm tork, 250hp motor gücü.",
+        "image": "/c2.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Tetra 2500",
+        "description": "Tetra 2500, büyük ölçekli sondaj projeleri için tasarlanmış, güçlü ve güvenilir bir makinedir. Yüksek verimliliği ve dayanıklılığı ile sektörün en çok tercih edilen modellerindendir.",
+        "specs": "Teknik Özellikler: 2500m derinlik kapasitesi, 3000Nm tork, 250hp motor gücü.",
+        "image": "/c11.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "ERN 1000",
+        "description": "ERN 1000, güçlü ve güvenilir bir makinedir. Yüksek verimliliği ve dayanıklılığı ile sektörün en çok tercih edilen modellerindendir.",
+        "specs": "Teknik Özellikler: 2500m derinlik kapasitesi, 3000Nm tork, 250hp motor gücü.",
+        "image": "/a17.png"
+      }
+    ]
+  },
+  "quality": {
+    "title": "Kalite Politikamız",
+    "content": "ÇUKURDERE SONDAJ olarak, iş veren memnuniyetini birinci planda tutmak, gelişmiş modern ve son teknolojik makinelerimiz ile müşterilerimizin her türlü talebini zamanında ve kusursuz karşılamayı amaçlamıştır. Hedefimiz, değişen ve büyüyen iş ağında tecrübeli kadromuzla beraber gerekli hizmetleri karşılayabilmek, sektörün en iyileri arasında yer alabilmektir. Çukurdere Sondaj’ın politikası çalışmalarını müşteri memnuniyeti ön planda olacak şekilde düzenleyip, uygulamaktır. Bu hassasiyetimizin, bize kalite ve güven sağlayacağına inanmaktayız.",
+    "principlesTitle": "İlkelerimiz",
+    "principlesList": [
+      "Çeşitlilik",
+      "Açık görüşlülük",
+      "Karşılıklı saygı",
+      "Belirgin hedefler",
+      "Kararlılık",
+      "Liderlik; kurumsal ilkelerimizdir."
+    ],
+    "customerSatisfactionTitle": "Müşteri Memnuniyeti",
+    "customerSatisfactionContent": "Vermiş olduğumuz hizmetlerde müşteri memnuniyeti bizim ne kadar profesyonel olduğumuzun göstergesidir. Müşteri memnuniyeti için kaliteli, sağlam, sağlıklı ve tam zamanında hizmetler sağlarız.",
+    "employeeSatisfactionTitle": "Çalışan Memnuniyeti",
+    "employeeSatisfactionContent": "Başarının en büyük payının takım çalışması olduğunu çalışanlarımıza anlatır ve onların da bu takımın bir parçası olduklarını hatırlatırız."
+  },
+  "references": {
+    "title": "Referanslar",
+    "items": [
+      { "src": "/alacer_gold.png", "alt": "Alacer Gold", "name": "Alacer Gold" },
+      { "src": "/altintepe.png", "alt": "Altıntepe Madencilik", "name": "Altıntepe Madencilik" },
+      { "src": "/anagold.png", "alt": "Anagold Madencilik", "name": "Anagold Madencilik" },
+      { "src": "", "alt": "Bahar Madencilik", "name": "Bahar Madencilik" },
+      { "src": "/demir.png", "alt": "Demir Export", "name": "Demir Export" },
+      { "src": "/path/to/elittas_logo.png", "alt": "Elittaş Madencilik", "name": "Elittaş Madencilik" },
+      { "src": "/limak.png", "alt": "Limak", "name": "Limak" },
+      { "src": "/kangal.png", "alt": "Kangal Termik A.Ş", "name": "Kangal Termik A.Ş" },
+      { "src": "/pozitif.png", "alt": "Pozitif Sondaj", "name": "Pozitif Sondaj" }
+    ]
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "items": [
+      {
+        "img": "/c8.jpeg",
+        "alt": "Wireline Yüzey Karotlu Sondajlar",
+        "title": "Wireline Yüzey Karotlu Sondajlar",
+        "description": "En ileri teknolojiyi kullanarak, yüzey karotlu sondaj çalışmalarımızla hızlı ve güvenilir çözümler sunuyoruz."
+      },
+      {
+        "img": "/c9.jpeg",
+        "alt": "Wireline Yer altı Karotlu Sondajlar",
+        "title": "Wireline Yer altı Karotlu Sondajlar",
+        "description": "Yer altı karotlu sondaj hizmetlerimizle zorlu koşullarda bile güvenilir ve etkili çözümler sunuyoruz."
+      },
+      {
+        "img": "/c12.jpeg",
+        "alt": "Havalı ve Çamurlu Rotary Sondajlar",
+        "title": "Havalı ve Çamurlu Rotary Sondajlar",
+        "description": "Havalı ve çamurlu rotary sondaj hizmetlerimizle, geniş çaplı projelerde güvenilir sonuçlar elde ediyoruz."
+      },
+      {
+        "img": "/c7.jpeg",
+        "alt": "Konvansiyonel Karotlu Sondajlar",
+        "title": "Konvansiyonel Karotlu Sondajlar",
+        "description": "Konvansiyonel karotlu sondaj hizmetlerimizle, geleneksel yöntemlerle yüksek kaliteli sonuçlar elde ediyoruz."
+      },
+      {
+        "img": "/c6.jpeg",
+        "alt": "Ters Sirkülasyon Sondajlar",
+        "title": "Ters Sirkülasyon Sondajlar",
+        "description": "Ters sirkülasyon sondaj hizmetlerimizle, hızlı ve verimli sondaj işlemleri sunuyoruz."
+      },
+      {
+        "img": "/c11.jpeg",
+        "alt": "RAB Sondajlar",
+        "title": "RAB Sondajlar",
+        "description": "RAB sondaj hizmetlerimizle, hızlı ve etkili sondaj çözümleri sunuyoruz."
+      }
+    ]
+  },
+  "logo": {
+    "text": "Çukurdere Sondaj"
+  },
+  "brand": {
+    "name": "Çukurdere Sondaj"
+  }
+  
+}

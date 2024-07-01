@@ -1,0 +1,200 @@
+{
+  "header": {
+    "home": "HOME",
+    "about": "ABOUT",
+    "quality": "QUALITY POLICY",
+    "vision": "VISION AND MISSION",
+    "services": "SERVICES",
+    "references": "REFERENCES",
+    "machines": "MACHINES",
+    "isg": "OHS AND ENVIRONMENT",
+    "contact": "CONTACT",
+    "tr": "TR",
+    "en": "EN",
+    "corporate": "CORPORATE"
+  },
+
+"hero": {
+    "text1": "As Bandrol, we believe that a correct and efficient work can only be achieved in a safe and healthy working environment.",
+    "text2": "Bandrol always offers modern and innovative drilling solutions by using the best equipment.",
+    "machines": "Our Machines",
+    "quality_policy": "Our Quality Policy",
+    "isg_and_environment": "ISG And Environment",
+    "references": "Our References",
+    "about_us": "About Us"
+  },
+  "aboutUs": {
+    "title": "About Us",
+    "whoWeAre": "Who Are We?",
+    "whoWeAreText1": "Established in 2015, it was founded to provide professional service to the mining sector with its accumulation, experience, and expertise. The aim is to use machines and equipment suitable for today's technology to carry out projects more economically and to maximize efficiency with its high-quality and professional staff. It conducts its projects by adopting principles on health, occupational safety, and the environment.",
+    "whoWeAreText2": "ÇUKURDERE SONDAJ is responsible for completing its operations with high standards to achieve its goals. It places great importance on maintaining respectable relations with local staff and contributing to the development and lifestyle of the community in the region where it operates.",
+    "vision": "Vision",
+    "visionText": "In the sector we serve, we are an organization that applies all the possibilities brought by technology, provides reliable, employer-focused, and high-quality service, respects the rights of employers and employees, trains qualified workers in its sector, is innovative and continuously improves itself.",
+    "mission": "Mission",
+    "missionText": "Our mission is to be a recognized organization that can provide reliable and high-quality service in every field of the sector we work in, with our professionalism and teamwork.",
+    "goals": "Our Main Goals",
+    "goalsList": [
+      "Customer-oriented and trust-based quality service,",
+      "Continuous productivity increase in provided technical and management services,",
+      "Improvement of occupational safety and zero accidents,",
+      "Environmentally sensitive work and planning,",
+      "Development and establishment of cooperation and teamwork,",
+      "Establishment of high efficiency and quality awareness,",
+      "Aiming for better and excellence."
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "nameLabel": "Your Name",
+    "namePlaceholder": "Your Name",
+    "emailLabel": "Your Email Address",
+    "emailPlaceholder": "Your Email Address",
+    "messageLabel": "Your Message",
+    "messagePlaceholder": "Your Message",
+    "submitButton": "Send"
+  },
+  "isg":{
+    "title": "Occupational Health and Safety",
+    "subtitle": "At Çukurdere Drilling, we believe that efficient work can only be achieved in a safe and healthy working environment.",
+    "paragraph1": "Çukurdere Drilling complies with National and International legal regulations, laws, and other obligations related to occupational health and safety in all processes. We prevent potential work accidents by following sectoral and technological developments, continuously improve occupational health and safety performance, use all equipment in the most accurate and efficient way possible, analyze and evaluate potential work accidents from the beginning to the end of projects, and ensure that all our employees receive training on occupational health and safety.",
+    "paragraph2": "We aim to create and increase awareness of occupational health and safety responsibilities.",
+    "environmentalPolicyTitle": "Our Environmental Policy",
+    "environmentalPolicy": "At Çukurdere Drilling, based on the principles of sustainable development and environmental protection, we:",
+    "environmentalPoints": [
+      "Comply with National and International legal regulations, laws, and other obligations related to the environment.",
+      "Prevent environmental pollution and continuously improve environmental performance by following sectoral and scientific research with technological developments.",
+      "Protect natural resources and use them efficiently.",
+      "Control and reduce environmental impacts that may occur throughout the projects from start to finish.",
+      "Minimize or recover waste that may occur during work.",
+      "Provide environmental training to all our employees to increase environmental responsibility awareness from top to bottom."
+    ]
+  },
+  "machines": {
+    "title": "Our Machines",
+    "moreInfo": "More Info",
+    "data": [
+      {
+        "id": 1,
+        "name": "PD-500",
+        "description": "PD-500 is a drilling machine that offers high performance and durability. With advanced technology and an easy-to-use interface, it delivers excellent results even in the most challenging drilling projects.",
+        "specs": "Technical Specifications: 5000m depth capacity, 2000Nm torque, 250hp motor power.",
+        "image": "/c2.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Tetra 2500",
+        "description": "Tetra 2500 is designed for large-scale drilling projects, a powerful and reliable machine. It is one of the most preferred models in the industry due to its high efficiency and durability.",
+        "specs": "Technical Specifications: 2500m depth capacity, 3000Nm torque, 250hp motor power.",
+        "image": "/c11.jpeg"
+      },
+      {
+        "id": 3,
+        "name": "ERN 1000",
+        "description": "ERN 1000 is a powerful and reliable machine. It is one of the most preferred models in the industry due to its high efficiency and durability.",
+        "specs": "Technical Specifications: 2500m depth capacity, 3000Nm torque, 250hp motor power.",
+        "image": "/a17.png"
+      }
+    ]
+  },
+  "quality": {
+    "title": "Our Quality Policy",
+    "content": "As ÇUKURDERE DRILLING, we aim to prioritize employer satisfaction, meet all the demands of our customers on time and flawlessly with our advanced modern and latest technological machines. Our goal is to meet the necessary services with our experienced team in the changing and growing business network and to be among the best in the industry. The policy of Çukurdere Drilling is to organize and implement its work with customer satisfaction in mind. We believe that this sensitivity will provide us with quality and trust.",
+    "principlesTitle": "Our Principles",
+    "principlesList": [
+      "Diversity",
+      "Open-mindedness",
+      "Mutual respect",
+      "Clear goals",
+      "Determination",
+      "Leadership; are our corporate principles."
+    ],
+    "customerSatisfactionTitle": "Customer Satisfaction",
+    "customerSatisfactionContent": "The satisfaction of our customers in the services we provide is an indicator of how professional we are. We provide quality, robust, healthy, and timely services for customer satisfaction.",
+    "employeeSatisfactionTitle": "Employee Satisfaction",
+    "employeeSatisfactionContent": "We explain to our employees that the biggest share of success is teamwork and remind them that they are part of this team."
+  },
+  "references": {
+    "title": "References",
+    "items": [
+      { "src": "/alacer_gold.png", "alt": "Alacer Gold", "name": "Alacer Gold" },
+      { "src": "/altintepe.png", "alt": "Altıntepe Mining", "name": "Altıntepe Mining" },
+      { "src": "/anagold.png", "alt": "Anagold Mining", "name": "Anagold Mining" },
+      { "src": "", "alt": "Bahar Mining", "name": "Bahar Mining" },
+      { "src": "/demir.png", "alt": "Demir Export", "name": "Demir Export" },
+      { "src": "/path/to/elittas_logo.png", "alt": "Elittaş Mining", "name": "Elittaş Mining" },
+      { "src": "/limak.png", "alt": "Limak", "name": "Limak" },
+      { "src": "/kangal.png", "alt": "Kangal Thermal Inc.", "name": "Kangal Thermal Inc." },
+      { "src": "/pozitif.png", "alt": "Pozitif Drilling", "name": "Pozitif Drilling" }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "items": [
+      {
+        "img": "/c8.jpeg",
+        "alt": "Wireline Surface Core Drilling",
+        "title": "Wireline Surface Core Drilling",
+        "description": "Using the latest technology, we provide fast and reliable solutions with our surface core drilling services."
+      },
+      {
+        "img": "/c9.jpeg",
+        "alt": "Wireline Underground Core Drilling",
+        "title": "Wireline Underground Core Drilling",
+        "description": "We offer reliable and effective solutions even in challenging conditions with our underground core drilling services."
+      },
+      {
+        "img": "/c12.jpeg",
+        "alt": "Air and Mud Rotary Drilling",
+        "title": "Air and Mud Rotary Drilling",
+        "description": "With our air and mud rotary drilling services, we achieve reliable results in large-scale projects."
+      },
+      {
+        "img": "/c7.jpeg",
+        "alt": "Conventional Core Drilling",
+        "title": "Conventional Core Drilling",
+        "description": "We achieve high-quality results using traditional methods with our conventional core drilling services."
+      },
+      {
+        "img": "/c6.jpeg",
+        "alt": "Reverse Circulation Drilling",
+        "title": "Reverse Circulation Drilling",
+        "description": "We offer fast and efficient drilling operations with our reverse circulation drilling services."
+      },
+      {
+        "img": "/c11.jpeg",
+        "alt": "RAB Drilling",
+        "title": "RAB Drilling",
+        "description": "We provide fast and effective drilling solutions with our RAB drilling services."
+      }
+    ]
+  },
+  "vision": {
+    "title": "Vision Mission",
+    "whoWeAre": "Who Are We?",
+    "whoWeAreText1": "Established in 2015, it was founded to provide professional service to the mining sector with its accumulation, experience, and expertise. The aim is to use machines and equipment suitable for today's technology to carry out projects more economically and to maximize efficiency with its high-quality and professional staff. It conducts its projects by adopting principles on health, occupational safety, and the environment.",
+    "whoWeAreText2": "ÇUKURDERE SONDAJ is responsible for completing its operations with high standards to achieve its goals. It places great importance on maintaining respectable relations with local staff and contributing to the development and lifestyle of the community in the region where it operates.",
+    "vision": "Vision",
+    "visionText": "In the sector we serve, we are an organization that applies all the possibilities brought by technology, provides reliable, employer-focused, and high-quality service, respects the rights of employers and employees, trains qualified workers in its sector, is innovative and continuously improves itself.",
+    "mission": "Mission",
+    "missionText": "Our mission is to be a recognized organization that can provide reliable and high-quality service in every field of the sector we work in, with our professionalism and teamwork.",
+    "goals": "Our Main Goals",
+    "goalsList": [
+      "Customer-oriented and trust-based quality service,",
+      "Continuous productivity increase in provided technical and management services,",
+      "Improvement of occupational safety and zero accidents,",
+      "Environmentally sensitive work and planning,",
+      "Development and establishment of cooperation and teamwork,",
+      "Establishment of high efficiency and quality awareness,",
+      "Aiming for better and excellence."
+    ]
+  },
+ 
+  
+    "logo": {
+      "text": "Çukurdere Drilling"
+    }
+  ,
+  "brand": {
+    "name": "Çukurdere Drilling"
+  }
+}

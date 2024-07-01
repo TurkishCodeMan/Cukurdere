@@ -1,8 +1,16 @@
-const { i18n } = require('./next-i18next.config');
+const createNextIntlPlugin = require('next-intl/plugin');
+ 
+const withNextIntl = createNextIntlPlugin();
+ 
+/** @type {import('next').NextConfig} */
+const nextConfig = {
 
-module.exports = {
   experimental: {
     appDir: true,
+  },
+  i18n: {
+    locales: ["en", "fr", "de"],
+    defaultLocale: "en",
   },
   async rewrites() {
     return [
@@ -46,3 +54,6 @@ module.exports = {
     ]
   },
 };
+ 
+module.exports = withNextIntl(nextConfig);
+
