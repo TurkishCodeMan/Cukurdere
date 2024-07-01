@@ -180,6 +180,23 @@
     "author": "Çukurdere Sondaj",
     "canonical": "https://www.cukurderesondaj.com.tr/home",
     "googleVerification": "GVV3xd9PB7n23bvfDQ4PEb1Lmk3GMpOM_bUhDyDEPog"
+  },
+
+  "footer": {
+    "customerInfo": "Müşteri Bilgileri",
+    "phone": "Tel",
+    "fax": "Fax",
+    "email": "Mail",
+    "aboutUs": "Hakkımızda",
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetlerimiz",
+    "references": "Referanslar",
+    "qualityPolicy": "Kalite Politikamız",
+    "hseAndEnvironment": "İsg Ve Çevre",
+    "contact": "İletişim",
+    "callUs": "Bizi Arayın",
+    "rightsReserved": "Tüm Hakları Saklıdır."
   }
   
 }
