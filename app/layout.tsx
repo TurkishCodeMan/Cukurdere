@@ -6,19 +6,19 @@ import { getLocale, getMessages } from "next-intl/server";
 
 async function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = await getLocale();
-console.log(locale)
+  console.log(locale);
   const messages = await getMessages(locale as any);
 
   return (
     <html lang={locale}>
-      <Head />
-      <body className="font-sans">
-        <NextIntlClientProvider locale={locale} messages={messages}>
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <Head />
+        <body className="font-sans">
           <Header />
           {children}
           <Footer />
-        </NextIntlClientProvider>
-      </body>
+        </body>
+      </NextIntlClientProvider>
     </html>
   );
 }
