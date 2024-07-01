@@ -155,7 +155,7 @@ export default function Hero() {
           className="bg-cover bg-center md:bg-bottom min-h-screen flex items-center justify-center "
           style={{
             backgroundImage:
-              "linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/a2.jpg')",
+              "linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/a2.JPG')",
           }}
         >
           <div className="md:flex md:flex-row flex flex-col ">
