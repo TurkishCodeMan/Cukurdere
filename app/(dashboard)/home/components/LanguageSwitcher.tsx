@@ -15,7 +15,7 @@ const LanguageSwitcher = () => {
     });
   };
   return (
-    <div className="flex space-x-4">
+    <div className="flex space-x-4 items-center">
       <button
         onClick={() => changeLanguage("tr")}
         className="text-red-800 hover:text-yellow-500"

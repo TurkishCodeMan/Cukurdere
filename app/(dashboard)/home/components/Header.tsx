@@ -51,12 +51,12 @@ const Header = () => {
               />
             </a>
           </div>
-          <nav className="hidden md:flex space-x-6 font-semibold">
+          <nav className="hidden md:flex space-x-6 items-center font-semibold">
             <a href="/" className="text-black hover:text-red-700">
               {t("home")}
             </a>
             <Menu as="div" className="relative">
-              <MenuButton className="text-black hover:text-red-700flex items-center">
+              <MenuButton className="text-black hover:text-red-700 flex items-center">
                 {t("corporate")}
                 <HiChevronDown className="ml-2 h-5 w-5" />
               </MenuButton>
