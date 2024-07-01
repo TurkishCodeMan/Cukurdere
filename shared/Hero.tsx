@@ -42,7 +42,7 @@ export default function Hero() {
               className="md:w-1/2 w-full h-screen bg-black bg-opacity-0 flex items-center justify-center"
               style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 80%)" }}
             >
-              <div className="text-center p-8 relative">
+              <div className="text-center p-8 relative mr-auto">
                 <div className="flex items-center justify-center">
                   <div className="md:flex items-center">
                     <img
@@ -79,7 +79,7 @@ export default function Hero() {
               className="md:w-1/2 w-full h-screen bg-black bg-opacity-0 flex items-center justify-center"
               style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 80%)" }}
             >
-              <div className="text-center p-8 relative">
+              <div className="text-center p-8 relative mr-auto">
                 <p className="text-xl font-sans opacity-80 mt-4 text-white relative z-10">
                   <Bandrol /> {t('text2')}
                 </p>
@@ -107,7 +107,7 @@ export default function Hero() {
               className="md:w-1/2 w-full h-screen bg-black bg-opacity-0 flex items-center justify-center"
               style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 80%)" }}
             >
-              <div className="text-center p-8 relative">
+              <div className="text-center p-8 relative mr-auto">
                 <p className="text-xl font-sans opacity-80 mt-4 text-white relative z-10">
                   <Bandrol />
                 </p>
@@ -135,7 +135,7 @@ export default function Hero() {
               className="md:w-1/2 w-full h-screen bg-black bg-opacity-0 flex items-center justify-center"
               style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 80%)" }}
             >
-              <div className="text-center p-8 relative">
+              <div className="text-center p-8 relative mr-auto">
                 <p className="text-xl font-sans opacity-80 mt-4 text-white relative z-10">
                   <Bandrol />
                 </p>
@@ -163,7 +163,7 @@ export default function Hero() {
               className="md:w-1/2 w-full h-screen bg-black bg-opacity-0 flex items-center justify-center"
               style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 80%)" }}
             >
-              <div className="text-center p-8 relative">
+              <div className="text-center p-8 relative mr-auto">
                 <p className="text-xl font-sans opacity-80 mt-4 text-white relative z-10">
                   <Bandrol />
                 </p>
