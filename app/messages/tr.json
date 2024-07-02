@@ -197,6 +197,27 @@
     "contact": "İletişim",
     "callUs": "Bizi Arayın",
     "copyright": "© 2024 Çukurdere Sondaj. All Rights Reserved."
+  },
+
+  "vision": {
+    "title": "Vizyon Misyon",
+    "whoWeAre": "Kimiz?",
+    "whoWeAreText1": "2015 yılında birikim, deneyim ve uzmanlıklarıyla madencilik sektörüne profesyonel hizmet vermek amacıyla kurulmuştur. Amacı, günümüz teknolojisine uygun makine ve ekipmanları kullanarak projeleri daha ekonomik koşullarda yürütmek ve yüksek kaliteli, profesyonel kadrosuyla verimliliği en üst seviyeye çıkarmaktır. Sağlık, iş güvenliği ve çevre konularındaki ilkeleri benimseyerek projelerini yürütmektedir.",
+    "whoWeAreText2": "ÇUKURDERE SONDAJ, hedeflerine ulaşmak için operasyonlarını yüksek standartlarda tamamlamaktan sorumludur. Çalıştığı bölgede, yerel personel ile saygın ilişkilerin sürdürülmesine ve toplumun gelişimine büyük önem verir.",
+    "vision": "Vizyon",
+    "visionText": "Hizmet verdiğimiz sektörde, teknolojinin getirdiği tüm imkanları uygulayan, güvenilir, işveren odaklı ve yüksek kaliteli hizmet veren, işveren ve çalışanların haklarına saygılı, sektöründe nitelikli çalışanlar yetiştiren, yenilikçi ve sürekli kendini geliştiren bir kuruluşuz.",
+    "mission": "Misyon",
+    "missionText": "Profesyonelliğimiz ve takım çalışmamız ile birlikte çalıştığımız sektörün her alanında güvenilir ve yüksek kaliteli hizmet verebilecek, tanınan bir kuruluş olmaktır.",
+    "goals": "Başlıca Hedeflerimiz",
+    "goalsList": [
+      "Müşteri odaklı ve güvene dayalı kaliteli hizmet,",
+      "Sağlanan teknik ve yönetim hizmetlerinde sürekli verimlilik artışı,",
+      "İş güvenliğinin artırılması ve sıfır kaza,",
+      "Çevreye duyarlı çalışma ve planlama,",
+      "İş birliği ve ekip çalışmasının gelişmesi ve yerleşmesi,",
+      "Yüksek verim ve kalite bilincinin yerleşmesi,",
+      "Daha iyiyi ve mükemmeli hedeflemek."
+    ]
   }
   
 }
