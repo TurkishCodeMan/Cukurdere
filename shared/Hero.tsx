@@ -151,34 +151,7 @@ export default function Hero() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide
-          className="bg-cover bg-center md:bg-bottom min-h-screen flex items-center justify-center "
-          style={{
-            backgroundImage:
-              "linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/a2.JPG')",
-          }}
-        >
-          <div className="md:flex md:flex-row flex flex-col ">
-            <div
-              className="md:w-1/2 w-full h-screen bg-black bg-opacity-0 flex items-center justify-center"
-              style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 80%)" }}
-            >
-              <div className="text-center p-8 relative mr-auto">
-                <p className="text-xl font-sans opacity-80 mt-4 text-white relative z-10">
-                  <Bandrol />
-                </p>
-                <a
-                  href="/about"
-                  className="relative inline-block mt-8 mb-2 px-6 py-2 font-semibold text-white overflow-hidden group"
-                >
-                  <span className="relative z-10 text-lg">{t('about_us')}</span>
-                  <div className="absolute inset-0 bg-red-500 transition-all duration-200 ease-in-out clip-path-right group-hover:clip-path-full"></div>
-                </a>
-                <div className="absolute inset-0 z-0"></div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
+    
       </Swiper>
     </section>
   );
