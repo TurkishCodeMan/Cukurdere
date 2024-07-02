@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 border-t border-gray-700 pt-4 text-center">
-          <p>&copy; 2024 Çukurdere Sondaj. {t('rightsReserved')}</p>
+          <p>&copy; {t('copyright')}</p>
         </div>
       </div>
     </footer>
