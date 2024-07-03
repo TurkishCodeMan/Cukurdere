@@ -183,7 +183,7 @@
   },
 
   "footer": {
-    "customerInfo": "Müşteri Bilgileri",
+    "customerInfo": "İletişim Bilgileri",
     "phone": "Tel",
     "fax": "Fax",
     "email": "Mail",
@@ -195,7 +195,10 @@
     "qualityPolicy": "Kalite Politikamız",
     "hseAndEnvironment": "İsg Ve Çevre",
     "contact": "İletişim",
-    "callUs": "Bizi Arayın",
+    "callUs": "Takip Et",
+    "contactInfo": "İletişim Bilgileri",
+    "address": "OSTİM OSB. MAHALLESİ 1125/2. SOKAK NO:10",
+    "cityCountry": "Ostim/Yenimahalle, Ankara - Türkiye",
     "copyright": "© 2024 Çukurdere Sondaj. All Rights Reserved."
   },
 

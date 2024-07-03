@@ -25,7 +25,7 @@ export default function Hero() {
         navigation
         keyboard={{ enabled: true }}
         autoplay={{
-          delay: 12000,
+          delay: 7000,
           disableOnInteraction: true,
         }}
         pagination={{ clickable: true }}
@@ -52,16 +52,10 @@ export default function Hero() {
                     />
                   </div>
                 </div>
-                <p className="text-xl font-sans opacity-80 mt-4 text-white relative z-10">
+                <p className="text-xl mb-40 font-sans opacity-80 mt-4 text-white relative z-10">
                   <Bandrol /> {t('text1')}
                 </p>
-                <a
-                  href="/machines"
-                  className="relative inline-block mt-8 px-6 py-2 font-semibold text-white overflow-hidden group"
-                >
-                  <span className="relative z-10 text-lg">{t('machines')}</span>
-                  <div className="absolute inset-0 bg-red-500 transition-all duration-200 ease-in-out clip-path-right group-hover:clip-path-full"></div>
-                </a>
+             
                 <div className="absolute inset-0 z-0"></div>
               </div>
             </div>
@@ -83,13 +77,7 @@ export default function Hero() {
                 <p className="text-xl font-sans opacity-80 mt-4 text-white relative z-10">
                   <Bandrol /> {t('text2')}
                 </p>
-                <a
-                  href="/quality"
-                  className="relative inline-block mt-8 px-6 py-2 font-semibold text-white overflow-hidden group"
-                >
-                  <span className="relative z-10 text-lg">{t('quality_policy')}</span>
-                  <div className="absolute inset-0 bg-red-500 transition-all duration-200 ease-in-out clip-path-right group-hover:clip-path-full"></div>
-                </a>
+               
                 <div className="absolute inset-0 z-0"></div>
               </div>
             </div>
@@ -111,13 +99,7 @@ export default function Hero() {
                 <p className="text-xl font-sans opacity-80 mt-4 text-white relative z-10">
                   <Bandrol />
                 </p>
-                <a
-                  href="/isg"
-                  className="relative inline-block mt-8 px-6 py-2 font-semibold text-white overflow-hidden group"
-                >
-                  <span className="relative z-10 text-lg">{t('isg_and_environment')}</span>
-                  <div className="absolute inset-0 bg-red-500 transition-all duration-200 ease-in-out clip-path-right group-hover:clip-path-full"></div>
-                </a>
+              
                 <div className="absolute inset-0 z-0"></div>
               </div>
             </div>
@@ -131,7 +113,7 @@ export default function Hero() {
   }}
 >
   <div className="flex flex-col overflow-hidden">
-    <div className="md:w-1/2 w-full h-screen flex items-center justify-center">
+    <div className="md:w-1/2  w-full h-screen flex items-center justify-center">
       <div className="text-center container p-8 relative z-30">
         <div className="flex items-center justify-center">
           <div className="md:flex items-center flex-col">
@@ -140,13 +122,7 @@ export default function Hero() {
             </p>
           </div>
         </div>
-        <a
-          href="/references"
-          className="relative inline-block mt-8 mb-2 px-6 py-2 font-semibold text-white overflow-hidden group"
-        >
-          <span className="relative z-10 text-lg">{t('references')}</span>
-          <div className="absolute inset-0 bg-red-500 transition-all duration-200 ease-in-out clip-path-right group-hover:clip-path-full"></div>
-        </a>
+       
         <div className="absolute inset-0 z-0"></div>
       </div>
     </div>

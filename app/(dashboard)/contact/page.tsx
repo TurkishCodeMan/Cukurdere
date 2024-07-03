@@ -64,6 +64,10 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <div className='my-10 w-full flex items-center justify-center'>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.6487218251445!2d32.756771376029484!3d39.97160588261088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d3499f141699db%3A0xd986f6f82284a829!2zw4dVS1VSREVSRSBTT05EQUogU0FOIHZlIFTEsEMuTFRELsWeVMSw!5e0!3m2!1str!2str!4v1719995936229!5m2!1str!2str" width="1024" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
     </div>
   );
 };
