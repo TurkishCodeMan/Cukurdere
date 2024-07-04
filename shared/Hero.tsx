@@ -31,7 +31,7 @@ export default function Hero() {
         pagination={{ clickable: true }}
       >
         <SwiperSlide
-          className="bg-cover bg-center md:bg-bottom min-h-screen flex items-center justify-center "
+          className="bg-cover bg-center md:bg-bottom min-h-screen flex items-center justify-start "
           style={{
             backgroundImage:
               "linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/c11.jpeg')",
@@ -39,7 +39,7 @@ export default function Hero() {
         >
           <div className="md:flex md:flex-row  flex flex-col ">
             <div
-              className="md:w-1/2 w-full h-screen bg-black bg-opacity-0 flex items-center justify-center"
+              className="md:w-1/2 w-full h-screen bg-black bg-opacity-0 flex items-center justify-start"
               style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 80%)" }}
             >
               <div className="text-center p-8 relative mr-auto">
@@ -52,7 +52,7 @@ export default function Hero() {
                     />
                   </div>
                 </div>
-                <p className="text-xl mb-40 font-sans opacity-80 mt-4 text-white relative z-10">
+                <p className="text-xl mb-40 font-sans opacity-80 mt-4 py-3 text-white relative z-10">
                   <Bandrol /> {t('text1')}
                 </p>
              
@@ -62,7 +62,7 @@ export default function Hero() {
           </div>
         </SwiperSlide>
         <SwiperSlide
-          className="bg-cover bg-center md:bg-bottom min-h-screen flex items-center justify-center "
+          className="bg-cover bg-center md:bg-bottom min-h-screen flex items-center justify-start "
           style={{
             backgroundImage:
               "linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/c12.jpeg')",
@@ -70,7 +70,7 @@ export default function Hero() {
         >
           <div className="md:flex md:flex-row flex flex-col ">
             <div
-              className="md:w-1/2 w-full h-screen bg-black bg-opacity-0 flex items-center justify-center"
+              className="md:w-1/2 w-full h-screen bg-black bg-opacity-0 flex items-center justify-start"
               style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 80%)" }}
             >
               <div className="text-center p-8 relative mr-auto">
@@ -84,14 +84,14 @@ export default function Hero() {
           </div>
         </SwiperSlide>
         <SwiperSlide
-  className="bg-cover min-h-screen flex items-center justify-center md:bg-center"
+  className="bg-cover min-h-screen flex items-center justify-start md:bg-center"
   style={{
     backgroundImage:
       "linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/d4.jpg')",
   }}
 >
   <div className="flex flex-col overflow-hidden">
-    <div className="md:w-1/2  w-full h-screen flex items-center justify-center">
+    <div className="md:w-1/2  w-full h-screen flex items-center justify-start">
       <div className="text-center container p-8 relative z-30">
         <div className="flex items-center justify-center">
           <div className="md:flex items-center flex-col">
@@ -110,14 +110,14 @@ export default function Hero() {
   </div>
 </SwiperSlide>
         <SwiperSlide
-  className="bg-cover min-h-screen flex items-center justify-center md:bg-center"
+  className="bg-cover min-h-screen flex items-center justify-start md:bg-center"
   style={{
     backgroundImage:
       "linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/d6.JPG')",
   }}
 >
   <div className="flex flex-col overflow-hidden">
-    <div className="md:w-1/2  w-full h-screen flex items-center justify-center">
+    <div className="md:w-1/2  w-full h-screen flex items-center justify-start">
       <div className="text-center container p-8 relative z-30">
         <div className="flex items-center justify-center">
           <div className="md:flex items-center flex-col">
@@ -136,18 +136,18 @@ export default function Hero() {
   </div>
 </SwiperSlide>
 <SwiperSlide
-  className="bg-cover min-h-screen flex items-center justify-center md:bg-center"
+  className="bg-cover min-h-screen flex items-center justify-start md:bg-center"
   style={{
     backgroundImage:
       "linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/d5.jpg')",
   }}
 >
   <div className="flex flex-col overflow-hidden">
-    <div className="md:w-1/2  w-full h-screen flex items-center justify-center">
+    <div className="md:w-1/2 w-full h-screen flex items-center justify-start">
       <div className="text-center container p-8 relative z-30">
         <div className="flex items-center justify-center">
           <div className="md:flex items-center flex-col">
-            <p className="text-6xl font-bold my-2 text-white z-10 animate-fade-in">
+            <p className="text-5xl font-bold my-2 text-white z-10 animate-fade-in">
               <Bandrol />{t('text4')}
             </p>
           </div>

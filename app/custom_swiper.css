@@ -1,9 +1,12 @@
 /* swiper-custom.css */
 
+/* swiper-custom.css */
+
 .swiper-button-next,
 .swiper-button-prev {
-  color: black; /* Siyah renk */
+  color: blue; /* Siyah renk */
   opacity: 0.5; /* Şeffaflık */
+  
 }
 
 .swiper-button-next:hover,
@@ -12,13 +15,14 @@
 }
 
 .swiper-pagination-bullet {
-  background: black; /* Siyah renk */
+  background: orange; /* Siyah renk */
   opacity: 0.5; /* Şeffaflık */
 }
 
 .swiper-pagination-bullet-active {
   opacity: 1; /* Aktif nokta için şeffaflık kaldırıldı */
 }
+
 
 
 .clip-path-right {
