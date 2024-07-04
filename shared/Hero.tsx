@@ -95,7 +95,7 @@ export default function Hero() {
       <div className="text-center container p-8 relative z-30">
         <div className="flex items-center justify-center">
           <div className="md:flex items-center flex-col">
-            <p className="text-6xl font-bold my-2 text-white z-10 animate-fade-in">
+            <p className="text-5xl font-bold my-2 text-white z-10 animate-fade-in">
               <Bandrol />{t('text3')}
             </p>
           </div>
@@ -121,7 +121,7 @@ export default function Hero() {
       <div className="text-center container p-8 relative z-30">
         <div className="flex items-center justify-center">
           <div className="md:flex items-center flex-col">
-            <p className="text-6xl font-bold my-2 text-white z-10 animate-fade-in">
+            <p className="text-5xl font-bold my-2 text-white z-10 animate-fade-in">
               <Bandrol /> {t('text5')}
             </p>
           </div>
