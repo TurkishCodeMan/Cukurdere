@@ -124,7 +124,11 @@
       { "src": "/path/to/elittas_logo.png", "alt": "Elittaş Mining", "name": "Elittaş Mining" },
       { "src": "/limak.png", "alt": "Limak", "name": "Limak" },
       { "src": "/kangal.png", "alt": "Kangal Thermal Inc.", "name": "Kangal Thermal Inc." },
-      { "src": "/pozitif.png", "alt": "Pozitif Drilling", "name": "Pozitif Drilling" }
+      { "src": "/pozitif.png", "alt": "Pozitif Drilling", "name": "Pozitif Drilling" },
+      { "src": "/teck.png", "alt": "Teck Mining", "name": "Teck Mining" },
+      { "src": "/dimin.png", "alt": "Dimin Mining", "name": "Dimin Mining" }
+
+
     ]
   },
   "services": {
