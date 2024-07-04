@@ -90,7 +90,7 @@ export default function Hero() {
               "linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/d1.jpg')",
           }}
         >
-          <div className="flex flex-col overflow-hidden pl-12">
+          <div className="flex flex-col overflow-hidden pl-40">
             <div className="md:w-1/2  w-full h-screen flex items-center justify-start">
               <div className="text-center container p-8 relative z-30">
                 <div className="flex items-center justify-center">
@@ -117,7 +117,7 @@ export default function Hero() {
               "linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/d6_.JPG')",
           }}
         >
-          <div className="flex flex-col overflow-hidden pl-12">
+          <div className="flex flex-col overflow-hidden pl-40">
             <div className="md:w-1/2  w-full h-screen flex items-center justify-start">
               <div className="text-center container p-8 relative z-30">
                 <div className="flex items-center justify-center">
@@ -140,7 +140,7 @@ export default function Hero() {
               "linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/d5.jpg')",
           }}
         >
-          <div className="flex flex-col overflow-hidden pl-12">
+          <div className="flex flex-col overflow-hidden pl-40">
             <div className="md:w-1/2 w-full h-screen flex items-center justify-start">
               <div className="text-center container p-8 relative z-30">
                 <div className="flex items-center justify-center">
