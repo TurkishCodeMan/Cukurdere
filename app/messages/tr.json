@@ -127,7 +127,9 @@
       { "src": "/path/to/elittas_logo.png", "alt": "Elittaş Madencilik", "name": "Elittaş Madencilik" },
       { "src": "/limak.png", "alt": "Limak", "name": "Limak" },
       { "src": "/kangal.png", "alt": "Kangal Termik A.Ş", "name": "Kangal Termik A.Ş" },
-      { "src": "/pozitif.png", "alt": "Pozitif Sondaj", "name": "Pozitif Sondaj" }
+      { "src": "/pozitif.png", "alt": "Pozitif Sondaj", "name": "Pozitif Sondaj" },
+      { "src": "/teck.png", "alt": "Teck Mining", "name": "Teck Madencilik" },
+      { "src": "/dimin.png", "alt": "Dimin Mining", "name": "Dimin Madencilik" }
     ]
   },
   "services": {
