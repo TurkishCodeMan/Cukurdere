@@ -84,7 +84,7 @@ export default function Hero() {
           </div>
         </SwiperSlide>
         <SwiperSlide
-          className="bg-cover min-h-screen flex items-center justify-start md:bg-center"
+          className="bg-contain min-h-screen flex items-center justify-start md:bg-center"
           style={{
             backgroundImage:
               "linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/d1.jpg')",
