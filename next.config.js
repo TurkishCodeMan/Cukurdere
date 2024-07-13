@@ -38,7 +38,7 @@ const nextConfig = {
       },
       {
         source: '/en',
-        destination: '/references',
+        destination: '/',
         permanent: true,
       },
       {
@@ -49,6 +49,11 @@ const nextConfig = {
       {
         source: '/tr/td-750',
         destination: '/machines',
+        permanent: true,
+      },
+      {
+        source: '/tr/cukurdere-sondaj',
+        destination: '/',
         permanent: true,
       },
     ]
