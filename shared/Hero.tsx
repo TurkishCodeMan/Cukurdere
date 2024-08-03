@@ -60,6 +60,9 @@ export default function Hero() {
               </div>
             </div>
           </div>
+          <div className="absolute -bottom-0 right-0 z-20">
+            <img src="/0000246.png" alt="Bars" className="w-48 h-auto mr-2" />
+          </div>
         </SwiperSlide>
         <SwiperSlide
           className="bg-cover bg-center md:bg-bottom min-h-screen flex items-center justify-start "
@@ -81,6 +84,9 @@ export default function Hero() {
                 <div className="absolute inset-0 z-0"></div>
               </div>
             </div>
+          </div>
+          <div className="absolute -bottom-0 right-0 z-20">
+            <img src="/0000246.png" alt="Bars" className="w-48 h-auto mr-2" />
           </div>
         </SwiperSlide>
         <SwiperSlide
@@ -106,8 +112,8 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="absolute bottom-0 right-0 z-20">
-            <img src="/logo_white.png" alt="Bars" className="w-32 h-auto" />
+          <div className="absolute -bottom-0 right-0 z-20">
+            <img src="/0000246.png" alt="Bars" className="w-48 h-auto mr-2" />
           </div>
         </SwiperSlide>
         <SwiperSlide
@@ -131,6 +137,9 @@ export default function Hero() {
                 <div className="absolute inset-0 z-0"></div>
               </div>
             </div>
+          </div>
+          <div className="absolute -bottom-0 right-0 z-20">
+            <img src="/0000246.png" alt="Bars" className="w-48 h-auto mr-2" />
           </div>
         </SwiperSlide>
         <SwiperSlide
@@ -156,8 +165,9 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="absolute bottom-0 right-0 z-20">
-            <img src="/logo_white.png" alt="Bars" className="w-32 h-auto" />
+        
+          <div className="absolute -bottom-0 right-0 z-20">
+            <img src="/0000246.png" alt="Bars" className="w-48 h-auto mr-2" />
           </div>
         </SwiperSlide>
       </Swiper>
