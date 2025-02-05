@@ -21,12 +21,13 @@ export default function ISG() {
           </ul>
         </div>
         <div className="md:w-1/2 grid grid-cols-1 gap-4">
+        <div className="relative w-full h-auto mb-4 float-left md:float-none md:w-1/2">
+            <Image src="/isg_c.jpeg" alt="İSG" width={500} height={300} className="rounded-lg shadow-lg" />
+          </div>
           <div className="relative w-full h-auto mb-4 float-left md:float-none md:w-1/2">
             <Image src="/a9.png" alt="İSG" width={500} height={300} className="rounded-lg shadow-lg clip-path-custom-1" />
           </div>
-          <div className="relative w-full h-auto mb-4 float-left md:float-none md:w-1/2">
-            <Image src="/a12.png" alt="İSG" width={500} height={300} className="rounded-lg shadow-lg clip-path-custom-3" />
-          </div>
+       
           <div className="relative w-full h-auto float-right md:float-none md:w-1/2">
             <Image src="/a11.png" alt="İSG" width={500} height={300} className="rounded-lg shadow-lg clip-path-custom-4" />
           </div>
