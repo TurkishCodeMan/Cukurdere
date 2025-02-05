@@ -13,8 +13,8 @@ const ISGveCevre = () => {
         
         <div className="space-y-16">
           {/* İş Sağlığı ve Güvenliği Bölümü */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div className="pr-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div>
               <h3 className="text-2xl font-semibold text-red-800 mb-4">{t('title')}</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
                 {t('subtitle')}
@@ -40,7 +40,7 @@ const ISGveCevre = () => {
           </div>
 
           {/* Çevre Politikası Bölümü */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
             <div className="order-2 md:order-1 relative mx-auto max-w-[800px] w-full">
               <div className="h-[750px] relative">
                 <Image
@@ -52,7 +52,7 @@ const ISGveCevre = () => {
                 />
               </div>
             </div>
-            <div className="order-1 md:order-2 pl-8">
+            <div className="order-1 md:order-2">
               <h3 className="text-2xl font-semibold text-red-800 mb-4">{t('environmentalPolicyTitle')}</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
                 {t('environmentalPolicy')}
