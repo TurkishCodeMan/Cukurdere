@@ -67,7 +67,7 @@ const ISGveCevre = () => {
 
           {/* Genel ISG Görüntüsü */}
           <div className="mt-12 relative mx-auto max-w-[800px]">
-            <div className="h-[750px] relative">
+            <div className="h-[900px] relative">
               <Image
                 src="/isg_c.jpeg"
                 fill
