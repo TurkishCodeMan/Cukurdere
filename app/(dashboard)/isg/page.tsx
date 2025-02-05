@@ -1,41 +1,86 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
-export default function ISG() {
-  const t  = useTranslations('isg');
+const ISGveCevre = () => {
+  const t = useTranslations('isg');
 
   return (
-    <section id="isg" className="relative z-0 bg-white min-h-screen text-black md:py-24">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-start">
-        <div className="md:w-1/2 mb-8 md:mb-0">
-          <h2 className="text-4xl font-bold mb-6 text-red-800">{t('title')}</h2>
-          <p className="text-lg text-gray-700 mb-4">{t('subtitle')}</p>
-          <p className="text-lg text-gray-700 mb-4">{t('paragraph1')}</p>
-          <p className="text-lg text-gray-700 mb-4">{t('paragraph2')}</p>
-          <h2 className="text-4xl font-bold mb-6 text-red-800">{t('environmentalPolicyTitle')}</h2>
-          <p className="text-lg text-gray-700 mb-4">{t('environmentalPolicy')}</p>
-          <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
-            {t.raw('environmentalPoints').map((point:any, index:any) => (
-              <li key={index}>{point}</li>
-            ))}
-          </ul>
-        </div>
-        <div className="md:w-1/2 grid grid-cols-1 gap-4">
-        <div className="relative w-full h-auto mb-4 float-left md:float-none md:w-1/2">
-            <Image src="/isg_c.jpeg" alt="İSG" width={500} height={300} className="rounded-lg shadow-lg" />
+    <div className="bg-white py-16 min-h-screen relative">
+      <div className="container mx-auto px-6">
+        <h2 className="text-3xl font-bold text-red-800 mb-12 text-center">{t('title')}</h2>
+        
+        <div className="space-y-16">
+          {/* İş Sağlığı ve Güvenliği Bölümü */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div className="pr-8">
+              <h3 className="text-2xl font-semibold text-red-800 mb-4">{t('title')}</h3>
+              <p className="text-gray-600 leading-relaxed mb-4">
+                {t('subtitle')}
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                {t('paragraph1')}
+              </p>
+              <p className="text-gray-600 leading-relaxed mt-4">
+                {t('paragraph2')}
+              </p>
+            </div>
+            <div className="relative mx-auto max-w-[800px] w-full">
+              <div className="h-[750px] relative">
+                <Image
+                  src="/c_baret.jpeg"
+                  fill
+                  className="rounded-lg shadow-lg"
+                  alt={t('title')}
+                  priority
+                />
+              </div>
+            </div>
           </div>
-          <div className="relative w-full h-auto mb-4 float-left md:float-none md:w-1/2">
-            <Image src="/a9.png" alt="İSG" width={500} height={300} className="rounded-lg shadow-lg clip-path-custom-1" />
+
+          {/* Çevre Politikası Bölümü */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div className="order-2 md:order-1 relative mx-auto max-w-[800px] w-full">
+              <div className="h-[750px] relative">
+                <Image
+                  src="/c_cevre.jpeg"
+                  fill
+                  className="rounded-lg shadow-lg"
+                  alt={t('environmentalPolicyTitle')}
+                  priority
+                />
+              </div>
+            </div>
+            <div className="order-1 md:order-2 pl-8">
+              <h3 className="text-2xl font-semibold text-red-800 mb-4">{t('environmentalPolicyTitle')}</h3>
+              <p className="text-gray-600 leading-relaxed mb-4">
+                {t('environmentalPolicy')}
+              </p>
+              <ul className="list-disc list-inside text-gray-600 space-y-2">
+                {t.raw('environmentalPoints').map((point: string, index: number) => (
+                  <li key={index} className="leading-relaxed">{point}</li>
+                ))}
+              </ul>
+            </div>
           </div>
-       
-          <div className="relative w-full h-auto float-right md:float-none md:w-1/2">
-            <Image src="/a11.png" alt="İSG" width={500} height={300} className="rounded-lg shadow-lg clip-path-custom-4" />
-          </div>
-          <div className="relative w-full h-auto mb-4 float-right md:float-none md:w-1/2">
-            <Image src="/a17.png" alt="Çevre" width={500} height={300} className="rounded-lg shadow-lg clip-path-custom-2" />
+
+          {/* Genel ISG Görüntüsü */}
+          <div className="mt-12 relative mx-auto max-w-[800px]">
+            <div className="h-[750px] relative">
+              <Image
+                src="/isg_c.jpeg"
+                fill
+                className="rounded-lg shadow-lg"
+                alt={t('title')}
+                priority
+              />
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
-}
+};
+
+export default ISGveCevre;

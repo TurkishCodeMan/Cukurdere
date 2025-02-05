@@ -7,6 +7,7 @@
     "services": "HİZMETLER",
     "references": "REFERANSLAR",
     "machines": "MAKİNELER",
+    "catalog": "KATALOG",
     "isg": "İSG VE ÇEVRE",
     "contact": "İLETİŞİM",
     "tr": "TR",
@@ -101,7 +102,7 @@
   },
   "quality": {
     "title": "Kalite Politikamız",
-    "content": "ÇUKURDERE SONDAJ olarak, iş veren memnuniyetini birinci planda tutmak, gelişmiş modern ve son teknolojik makinelerimiz ile müşterilerimizin her türlü talebini zamanında ve kusursuz karşılamayı amaçlamıştır. Hedefimiz, değişen ve büyüyen iş ağında tecrübeli kadromuzla beraber gerekli hizmetleri karşılayabilmek, sektörün en iyileri arasında yer alabilmektir. Çukurdere Sondaj’ın politikası çalışmalarını müşteri memnuniyeti ön planda olacak şekilde düzenleyip, uygulamaktır. Bu hassasiyetimizin, bize kalite ve güven sağlayacağına inanmaktayız.",
+    "content": "ÇUKURDERE SONDAJ olarak, iş veren memnuniyetini birinci planda tutmak, gelişmiş modern ve son teknolojik makinelerimiz ile müşterilerimizin her türlü talebini zamanında ve kusursuz karşılamayı amaçlamıştır. Hedefimiz, değişen ve büyüyen iş ağında tecrübeli kadromuzla beraber gerekli hizmetleri karşılayabilmek, sektörün en iyileri arasında yer alabilmektir. Çukurdere Sondaj'ın politikası çalışmalarını müşteri memnuniyeti ön planda olacak şekilde düzenleyip, uygulamaktır. Bu hassasiyetimizin, bize kalite ve güven sağlayacağına inanmaktayız.",
     "principlesTitle": "İlkelerimiz",
     "principlesList": [
       "Çeşitlilik",
