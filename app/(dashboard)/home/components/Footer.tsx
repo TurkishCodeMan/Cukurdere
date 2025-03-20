@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-wrap justify-between">
           {/* Müşteri Bilgileri */}
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <img src="unnamed.png" alt="Çukurdere Sondaj" className="my-2" />
+            <img src="/logo_cukurdere_black_.png" alt="Çukurdere Sondaj" className="my-2 w-40 h-30" />
             <h3 className="text-lg font-bold mb-4">{t("customerInfo")}</h3>
             <p className="flex items-center">
               <span className="font-semibold mr-2">

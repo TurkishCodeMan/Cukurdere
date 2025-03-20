@@ -35,18 +35,18 @@ const Header = () => {
       <header
         className={`w-full z-50 transition-all duration-500 ease-in-out ${
           isSticky
-            ? "fixed top-0 bg-white shadow-lg py-4 transform translate-y-0"
-            : "relative bg-white shadow-md py-5 transform translate-y-0 rotate-0"
+            ? "fixed top-0 bg-white shadow-lg py-3 transform translate-y-0"
+            : "relative bg-white shadow-md py-2 transform translate-y-0 rotate-0"
         }`}
       >
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center">
             <a href="/" className="flex items-center px-1">
               <img
-                src="/unnamed.png"
+                src="/logo_cukurdere_white.jpeg"
                 alt="Çukurdere Sondaj"
-                className={`transition-all duration-500 ease-in-out ${
-                  isSticky ? "h-12" : "h-14"
+                className={`transition-all duration-500 ease-in-out scale-110 ${
+                  isSticky ? "h-16" : "h-20"
                 }`}
               />
             </a>

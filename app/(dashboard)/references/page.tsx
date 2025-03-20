@@ -16,7 +16,7 @@ export default function References() {
               <Image src={item.src} alt={item.alt} width={64} height={64} className="h-16 w-auto my-auto filter grayscale" />
               <p className="text-xl font-semibold text-gray-700 mt-4">{item.name}</p>
               <div className="absolute bottom-0 right-0">
-                <Image src="/unnamed.png" alt="Çukurdere Sondaj" width={40} height={64} className="h-10 w-16 rounded-tl-lg" />
+                <Image src="/logo_cukurdere_white_.png" alt="Çukurdere Sondaj" width={50} height={70} className="h-10 w-16 rounded-tl-lg" />
               </div>
             </div>
           ))}
