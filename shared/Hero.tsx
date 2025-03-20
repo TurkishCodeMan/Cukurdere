@@ -32,7 +32,7 @@ export default function Hero() {
         >
           <SwiperSlide className="relative w-full h-screen">
             <Image
-              src="/4.png"
+              src="/1.png"
               alt="Slide 4"
               fill
               priority
@@ -42,7 +42,7 @@ export default function Hero() {
           </SwiperSlide>
           <SwiperSlide className="relative w-full h-screen">
             <Image
-              src="/1.png"
+              src="/2.png"
               alt="Slide 1"
               fill
               priority
@@ -52,7 +52,7 @@ export default function Hero() {
           </SwiperSlide>
           <SwiperSlide className="relative w-full h-screen">
             <Image
-              src="/2.png"
+              src="/3.png"
               alt="Slide 2"
               fill
               priority
@@ -62,7 +62,7 @@ export default function Hero() {
           </SwiperSlide>
           <SwiperSlide className="relative w-full h-screen">
             <Image
-              src="/3.png"
+              src="/4.png"
               alt="Slide 3"
               fill
               priority
