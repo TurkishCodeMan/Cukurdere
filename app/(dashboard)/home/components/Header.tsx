@@ -43,10 +43,10 @@ const Header = () => {
           <div className="flex items-center">
             <a href="/" className="flex items-center px-1">
               <img
-                src="/logo_cukurdere_white.jpeg"
+                src="/logo_cukurdere_white_.png"
                 alt="Çukurdere Sondaj"
                 className={`transition-all duration-500 ease-in-out scale-110 ${
-                  isSticky ? "h-16" : "h-20"
+                  isSticky ? "h-20" : "h-24"
                 }`}
               />
             </a>
