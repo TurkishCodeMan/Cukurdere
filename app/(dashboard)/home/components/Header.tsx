@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`w-full z-50 transition-all duration-500 ease-in-out ${
+        className={`w-full z-50 transition-all duration-500 ease-in-out pr-10 ${
           isSticky
             ? "fixed top-0 bg-white shadow-lg py-3 transform translate-y-0"
             : "relative bg-white shadow-md py-2 transform translate-y-0 rotate-0"
@@ -41,17 +41,17 @@ const Header = () => {
       >
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center">
-            <a href="/" className="flex items-center px-1">
+            <a href="/" className="flex items-center">
               <img
                 src="/logo_cukurdere_white_.png"
                 alt="Çukurdere Sondaj"
-                className={`transition-all duration-500 ease-in-out scale-110 ${
-                  isSticky ? "h-20" : "h-24"
+                className={`transition-all duration-500 ease-in-out ${
+                  isSticky ? "h-12" : "h-16"
                 }`}
               />
             </a>
           </div>
-          <nav className="hidden md:flex space-x-6 items-center font-semibold">
+          <nav className="hidden md:flex space-x-6 items-center font-semibold text-sm">
             <a href="/" className="text-black hover:text-red-700">
               {t("home")}
             </a>
