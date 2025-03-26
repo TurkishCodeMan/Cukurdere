@@ -28,26 +28,57 @@ export default function Machines() {
           {machinesData.map((machine:any) => (
             <div
               key={machine.id}
-              className="bg-white border border-gray-200 shadow-lg rounded-lg overflow-hidden animate-slide-in-right"
+              className="bg-white border border-gray-200 shadow-lg rounded-lg overflow-hidden animate-slide-in-right flex flex-col h-full"
             >
-              <img
-                src={machine.image}
-                alt={machine.name}
-                className="w-full h-64 object-cover"
-              />
-              <div className="p-6">
+              <div className="relative h-80">
+                <img
+                  src={machine.image}
+                  alt={machine.name}
+                  className="w-full h-full object-fill"
+                />
+              </div>
+              <div className="p-6 flex-grow flex flex-col">
                 <h3 className="text-3xl font-bold text-gray-900 mb-4">
                   {machine.name}
                 </h3>
-                <p className="text-lg text-gray-600 mb-4">
+             {!machine.capacities && (   <p className="text-lg text-gray-600 mb-4">
                   {machine.description}
-                </p>
-                <button
-                  onClick={() => openModal(machine)}
-                  className="inline-block bg-red-500 text-white px-6 py-2 rounded hover:bg-red-700 transition-all duration-300"
-                >
-                  {t('moreInfo')}
-                </button>
+                </p>)}
+                
+                {machine.capacities && (
+                  <div className="mb-4 mt-auto">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-2">Kapasite Tablosu</h4>
+                    <div className="overflow-x-auto">
+                      <table className="w-full bg-white border border-gray-200 text-sm">
+                        <thead>
+                          <tr className="bg-gray-50">
+                            <th className="py-1 px-2 border-b border-r text-left">Çap</th>
+                            <th className="py-1 px-2 border-b border-r text-left">Derinlik (m)</th>
+                            <th className="py-1 px-2 border-b text-left">Derinlik (ft)</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {machine.capacities.rods.map((rod:any, index:number) => (
+                            <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                              <td className="py-1 px-2 border-b border-r">{rod.diameter}</td>
+                              <td className="py-1 px-2 border-b border-r">{rod.depth}</td>
+                              <td className="py-1 px-2 border-b">{rod.depth_ft}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                )}
+                
+               {!machine.capacities && ( <div className="mt-auto">
+                  <button
+                    onClick={() => openModal(machine)}
+                    className="inline-block bg-red-500 text-white px-6 py-2 rounded hover:bg-red-700 transition-all duration-300"
+                  >
+                    {t('moreInfo')}
+                  </button>
+                </div>)}
               </div>
             </div>
           ))}

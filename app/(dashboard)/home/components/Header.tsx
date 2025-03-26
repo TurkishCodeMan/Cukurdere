@@ -41,15 +41,15 @@ const Header = () => {
       >
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center">
-            <a href="/" className="flex items-center">
+            <a href="/" className="flex items-center pl-8">
               <img
                 src="/logo_cukurdere_white_.png"
                 alt="Çukurdere Sondaj"
-               
+               width={130}
                
               
                 className={`transition-all duration-500 ease-in-out ${
-                  isSticky ? "h-16" : "h-28"
+                  isSticky ? "h-16" : "h-20"
                 }`}
               />
             </a>

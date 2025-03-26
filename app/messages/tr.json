@@ -97,7 +97,7 @@
         "id": 1,
         "name": "PD-500",
         "description": "PD-500, yüksek performans ve dayanıklılık sunan bir sondaj makinesidir. Gelişmiş teknolojisi ve kullanımı kolay arayüzü ile en zorlu sondaj projelerinde bile mükemmel sonuçlar sağlar.",
-        "specs": "Teknik Özellikler: 5000m derinlik kapasitesi, 2000Nm tork, 250hp motor gücü.",
+        "specs": "Teknik Özellikler: 2500m derinlik kapasitesi, 2000Nm tork, 250hp motor gücü.",
         "image": "/c2.jpeg"
       },
       {
@@ -113,6 +113,42 @@
         "description": "ERN 1000, güçlü ve güvenilir bir makinedir. Yüksek verimliliği ve dayanıklılığı ile sektörün en çok tercih edilen modellerindendir.",
         "specs": "Teknik Özellikler: 2500m derinlik kapasitesi, 3000Nm tork, 250hp motor gücü.",
         "image": "/a17.png"
+      },
+      {
+        "id": 4,
+        "name": "MRC-2000M",
+        "description": "MRC-2000M, güçlü ve güvenilir bir makinedir. Yüksek verimliliği ve dayanıklılığı ile sektörün en çok tercih edilen modellerindendir.",
+        "specs": "Teknik Özellikler: 2500m derinlik kapasitesi, 3000Nm tork, 250hp motor gücü.",
+        "image": "/mrc_200.png",
+        "capacities": {
+          "rods": [
+            {
+              "diameter": "114,3 mm",
+              "depth": "750 m",
+              "depth_ft": "2,460 ft"
+            },
+            {
+              "diameter": "88,9 mm",
+              "depth": "1,200 m",
+              "depth_ft": "3,936 ft"
+            },
+            {
+              "diameter": "69,9 mm",
+              "depth": "2,000 m",
+              "depth_ft": "6,560 ft"
+            },
+            {
+              "diameter": "54 mm",
+              "depth": "2,500 m",
+              "depth_ft": "8,200 ft"
+            },
+            {
+              "diameter": "RC 5''",
+              "depth": "400 m",
+              "depth_ft": "1,312 ft"
+            }
+          ]
+        }
       }
     ]
   },
@@ -153,13 +189,6 @@
       { "src": "/altınordu.png", "alt": "Altınordu Madencilik", "name": "Altınordu Madencilik" },
       { "src": "/nexus.png", "alt": "Nexus Madencilik", "name": "Nexus Madencilik" },
       { "src": "/yon.png", "alt": "Yön Çinkur Madencilik", "name": "Yön Çinkur Madencilik" }
-
-
-
-
-
-
-
     ]
   },
   "services": {
