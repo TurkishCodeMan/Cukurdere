@@ -137,17 +137,30 @@
   "references": {
     "title": "References",
     "items": [
-      { "src": "/alacer_gold.png", "alt": "Alacer Gold", "name": "Alacer Gold" },
+      { "src": "/alacer.png", "alt": "Alacer Gold", "name": "Alacer Gold" },
       { "src": "/altintepe.png", "alt": "Altıntepe Mining", "name": "Altıntepe Mining" },
       { "src": "/anagold.png", "alt": "Anagold Mining", "name": "Anagold Mining" },
-      { "src": "", "alt": "Bahar Mining", "name": "Bahar Mining" },
+      { "src": "/bahar.png", "alt": "Bahar Mining", "name": "Bahar Mining" },
       { "src": "/demir.png", "alt": "Demir Export", "name": "Demir Export" },
       { "src": "/path/to/elittas_logo.png", "alt": "Elittaş Mining", "name": "Elittaş Mining" },
       { "src": "/limak.png", "alt": "Limak", "name": "Limak" },
       { "src": "/kangal.png", "alt": "Kangal Thermal Inc.", "name": "Kangal Thermal Inc." },
-      { "src": "/pozitif.png", "alt": "Pozitif Drilling", "name": "Pozitif Drilling" },
       { "src": "/teck.png", "alt": "Teck Mining", "name": "Teck Mining" },
-      { "src": "/dimin.png", "alt": "Dimin Mining", "name": "Dimin Mining" }
+      { "src": "/dimin.png", "alt": "Dimin Mining", "name": "Dimin Mining" },
+      { "src": "/ilci.png", "alt": "İlci Inc.", "name": "İlci Inc." },
+      { "src": "/olmez.png", "alt": "Olmez Mining", "name": "Olmez Mining" },
+      { "src": "/dmineral.png", "alt": "D-Mineral Mining", "name": "D-Mineral Mining" },
+      { "src": "/mta.png", "alt": "MTA", "name": "MTA" },
+      { "src": "/altınordu.png", "alt": "Altınordu Mining", "name": "Altınordu Mining" },
+      { "src": "/nexus.png", "alt": "Nexus Mining", "name": "Nexus Mining" },
+      { "src": "/yon.png", "alt": "Yön Çinkur Mining", "name": "Yön Çinkur Mining" }
+
+
+    
+
+
+
+
 
 
     ]
@@ -243,7 +256,7 @@
     "references": "References",
     "qualityPolicy": "Our Quality Policy",
     "hseAndEnvironment": "ISG And Environment",
-    "contactInfo": "İletişim Bilgileri",
+    "contactInfo": "Contact Information",
     "address": "Adres: OSTİM OSB. MAHALLESİ 1125/2. SOKAK NO:10",
     "cityCountry": "Ostim/Yenimahalle, Ankara - Türkiye",
     "contact": "Contact",

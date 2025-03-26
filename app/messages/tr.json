@@ -20,7 +20,7 @@
     "slide3": "Genişleyen iş ağı",
     "slide4": "Son teknolojik makineler",
     "slide5": "Az maliyet çok verimlilik",
-    "slide6": "RC ters sirkülasyon sondaj hizmetleri sunar",
+    "slide6": "RC ters sirkülasyon sondaj hizmetleri sunar.",
     "slide7": "",
     "slide8":"",
     "slideAlt1": "Slayt 1",
@@ -136,17 +136,30 @@
   "references": {
     "title": "Referanslar",
     "items": [
-      { "src": "/alacer_gold.png", "alt": "Alacer Gold", "name": "Alacer Gold" },
+      { "src": "/alacer.png", "alt": "Alacer Gold", "name": "Alacer Gold" },
       { "src": "/altintepe.png", "alt": "Altıntepe Madencilik", "name": "Altıntepe Madencilik" },
       { "src": "/anagold.png", "alt": "Anagold Madencilik", "name": "Anagold Madencilik" },
-      { "src": "", "alt": "Bahar Madencilik", "name": "Bahar Madencilik" },
+      { "src": "/bahar.png", "alt": "Bahar Madencilik", "name": "Bahar Madencilik" },
       { "src": "/demir.png", "alt": "Demir Export", "name": "Demir Export" },
       { "src": "/path/to/elittas_logo.png", "alt": "Elittaş Madencilik", "name": "Elittaş Madencilik" },
       { "src": "/limak.png", "alt": "Limak", "name": "Limak" },
       { "src": "/kangal.png", "alt": "Kangal Termik A.Ş", "name": "Kangal Termik A.Ş" },
-      { "src": "/pozitif.png", "alt": "Pozitif Sondaj", "name": "Pozitif Sondaj" },
       { "src": "/teck.png", "alt": "Teck Mining", "name": "Teck Madencilik" },
-      { "src": "/dimin.png", "alt": "Dimin Mining", "name": "Dimin Madencilik" }
+      { "src": "/dimin.png", "alt": "Dimin Mining", "name": "Dimin Madencilik" },
+      { "src": "/ilci.png", "alt": "İlci Holding", "name": "İlci Holding" },
+      { "src": "/olmez.png", "alt": "Ölmez Madencilik", "name": "Ölmez Madencilik" },
+      { "src": "/dmineral.png", "alt": "D-Mineral Madencilik", "name": "D-Mineral Madencilik" },
+      { "src": "/mta.png", "alt": "MTA", "name": "MTA" },
+      { "src": "/altınordu.png", "alt": "Altınordu Madencilik", "name": "Altınordu Madencilik" },
+      { "src": "/nexus.png", "alt": "Nexus Madencilik", "name": "Nexus Madencilik" },
+      { "src": "/yon.png", "alt": "Yön Çinkur Madencilik", "name": "Yön Çinkur Madencilik" }
+
+
+
+
+
+
+
     ]
   },
   "services": {

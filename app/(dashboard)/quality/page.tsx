@@ -29,7 +29,7 @@ export default function Quality() {
           </p>
         </div>
         <div className="md:w-1/2 grid grid-cols-1 gap-4">
-          <img src="/a12.png" alt="Quality" className="w-full h-auto rounded-lg shadow-lg mb-4" />
+          <img src="/a12.png" alt="Quality" className="h-96 w-full rounded-lg mb-4" />
           <img src="/a13.png" alt="Quality" className="w-full h-auto rounded-lg shadow-lg mb-4" />
         </div>
       </div>

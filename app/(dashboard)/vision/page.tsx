@@ -21,7 +21,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div>
-          <img src="/a17.png" alt="Çukurdere Sondaj" className="rounded-lg" />
+          <img src="/ms.png" alt="Çukurdere Sondaj" className="rounded-lg" />
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">

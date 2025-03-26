@@ -49,7 +49,7 @@ const TypewriterText = ({ text, key }: { text: string, key: number }) => {
 
   return (
     <motion.div 
-      className="min-h-[80px] flex items-start justify-start w-full"
+      className="min-h-[50px] flex items-start justify-start w-full"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
@@ -159,7 +159,7 @@ export default function Hero() {
       
       {/* Sol Alt Köşede Logo */}
       <AnimatePresence mode="wait">
-        {activeIndex !== 6 && activeIndex !== 7 && activeIndex !== 5 && (
+        {activeIndex !== 6 && activeIndex !== 7 && (
           <motion.div
             key={`logo-${activeIndex}`}
             initial={{ x: -100, opacity: 0 }}
@@ -171,14 +171,14 @@ export default function Hero() {
               damping: 15, 
               delay: 0.3 
             }}
-            className="absolute left-8 md:left-12 bottom-24 z-30"
+            className="absolute left-8 md:left-12 bottom-0 z-30"
           >
             <Image 
               src="/logo_cukurdere_black_.png" 
               alt={t("logoAlt")}
               width={120} 
               height={70}
-              className="object-contain drop-shadow-2xl mb-6"
+              className="object-fill drop-shadow-2xl mb-2"
             />
           </motion.div>
         )}
@@ -186,14 +186,14 @@ export default function Hero() {
       
       {/* Sol Alt Köşede Yazı */}
       <AnimatePresence mode="wait">
-        {activeIndex !== 7 && activeIndex !== 5 && (
+        {activeIndex !== 7 && (
           <motion.div
             key={`text-${activeIndex}`}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="absolute left-8 md:left-12 bottom-12 z-30 p-2 max-w-[550px] mb-3"
+            className="absolute left-8 md:left-12 bottom-0 z-30  max-w-[550px] "
           >
             <TypewriterText 
               text={slideTexts[activeIndex]} 
