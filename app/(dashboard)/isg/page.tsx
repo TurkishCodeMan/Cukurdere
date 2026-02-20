@@ -29,7 +29,7 @@ const ISGveCevre = () => {
             <div className="relative mx-auto max-w-[800px] w-full">
               <div className="h-[750px] relative">
                 <Image
-                  src="/c_baret.jpeg"
+                  src="/c_baret.png"
                   fill
                   className="rounded-lg shadow-lg"
                   alt={t('title')}
@@ -44,7 +44,7 @@ const ISGveCevre = () => {
             <div className="order-2 md:order-1 relative mx-auto max-w-[800px] w-full">
               <div className="h-[750px] relative">
                 <Image
-                  src="/c_cevre.jpeg"
+                  src="/c_cevre.png"
                   fill
                   className="rounded-lg shadow-lg"
                   alt={t('environmentalPolicyTitle')}
