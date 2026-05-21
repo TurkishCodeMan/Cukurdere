@@ -19,7 +19,7 @@ export default function Footer() {
         {/* Logo ve Açıklama */}
         <div>
           <h2 className="text-lg font-bold mb-4">
-            <img src="/logo_cukurdere_black_.png" alt="Çukurdere Sondaj" className="w-40" />
+            <img src="/cs_logo_white.png" alt="Çukurdere Sondaj" className="w-40" />
           </h2>
           
         </div>

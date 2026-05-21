@@ -42,16 +42,14 @@ const Header = () => {
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center">
             <a href="/" className="flex items-center pl-8">
-              <img
-                src="/logo_cukurdere_white_.png"
-                alt="Çukurdere Sondaj"
-               width={130}
-               
-              
-                className={`transition-all duration-500 ease-in-out ${
-                  isSticky ? "h-16" : "h-20"
-                }`}
-              />
+           <img
+  src="/cs_logo.png"
+  alt="Çukurdere Sondaj"
+  // width={130}  <-- Bunu kaldırabilir veya kontrol altına alabilirsiniz
+  className={`transition-all duration-500 ease-in-out object-contain ${
+    isSticky ? "h-20 w-auto" : "h-24 w-auto"
+  }`}
+/>
             </a>
           </div>
           <nav className="hidden md:flex space-x-6 items-center font-semibold text-sm">

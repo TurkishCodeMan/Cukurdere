@@ -12,7 +12,7 @@ export default function Head() {
       <meta name="description" content={t('description')} />
       <meta name="keywords" content={t('keywords')} />
       <meta name="author" content={t('author')} />
-      <link rel="icon" href="/logo_cukurdere_black_.png" />
+  <link rel="icon" href="/cs_logo.png" />
       <link rel="canonical" href={t('canonical')} />
       <meta name="google-site-verification" content={t('googleVerification')} />
     </>
