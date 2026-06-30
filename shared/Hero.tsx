@@ -247,7 +247,7 @@ export default function Hero() {
       >
         <div className="relative w-40 h-24 md:w-56 md:h-32 rounded-2xl overflow-hidden border-2 border-white/30 shadow-[0_4px_20px_rgba(0,0,0,0.5)] group-hover:scale-105 group-hover:border-white transition-all bg-black/50">
           <video 
-            src="/ENG-ÇUKURDERE TANITIM.mp4" 
+            src="/cukurdere-tanitim.mp4" 
             autoPlay 
             loop 
             muted 
@@ -296,7 +296,7 @@ export default function Hero() {
               className="w-full max-w-5xl max-h-[85vh] aspect-video rounded-xl md:rounded-2xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.8)] relative bg-black border border-white/10"
             >
               <video 
-                src="/ENG-ÇUKURDERE TANITIM.mp4" 
+                src="/cukurdere-tanitim.mp4" 
                 controls 
                 autoPlay 
                 playsInline
