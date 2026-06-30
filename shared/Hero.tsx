@@ -20,11 +20,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState, useRef } from "react"; // useRef eklendi
 import type { Swiper as SwiperType } from 'swiper';
 import { useTranslations } from "next-intl";
-import { Volume2, VolumeX } from "lucide-react"; // İkonlar için lucide-react (projenizde yoksa npm install lucide-react yapmalısınız)
+import { Volume2, VolumeX, Play, X } from "lucide-react";
 
 
 // ... TypewriterText bileşeni aynı kalıyor ...
-const TypewriterText = ({ text, key }: { text: string, key: number }) => {
+const TypewriterText = ({ text, animationKey }: { text: string, animationKey: number }) => {
   const [displayText, setDisplayText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isComplete, setIsComplete] = useState(false);
@@ -32,7 +32,7 @@ const TypewriterText = ({ text, key }: { text: string, key: number }) => {
     setDisplayText("");
     setCurrentIndex(0);
     setIsComplete(false);
-  }, [key]);
+  }, [animationKey]);
   useEffect(() => {
     if (currentIndex < text.length) {
       const timeout = setTimeout(() => {
@@ -80,7 +80,7 @@ const SlideContent = ({
   setIsMuted: (val: boolean) => void
 }) => {
   const isActive = index === currentIndex;
-  const isSpecialSlide = !isVideo && (index === 8 || index === 9); 
+  const isSpecialSlide = !isVideo && (index === 7 || index === 8); 
   const objectFitClass = isSpecialSlide ? "object-fill" : "object-cover";
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -126,11 +126,12 @@ const SlideContent = ({
 export default function Hero() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isMuted, setIsMuted] = useState(true); // Ses durumu
+  const [isVideoOpen, setIsVideoOpen] = useState(false); // Video modal durumu
   const t = useTranslations("hero");
 
   const slides = [
+    // { type: "video", src: "/tanitim_compressed.mp4", text: "" }, 
     { type: "image", src: "/1.png", text: t("slide1"), alt: t("slideAlt1") },
-    { type: "video", src: "/tanitim_compressed.mp4", text: "" }, 
     { type: "image", src: "/2.png", text: t("slide2"), alt: t("slideAlt2") },
     { type: "image", src: "/3.png", text: t("slide3"), alt: t("slideAlt3") },
     { type: "image", src: "/4.png", text: t("slide4"), alt: t("slideAlt4") },
@@ -144,17 +145,18 @@ export default function Hero() {
   const videoSlideIndex = slides.findIndex(s => s.type === "video");
 
   return (
-    <section className="relative z-0 shadow-md bg-cover bg-center min-h-screen flex items-center justify-center text-white">
+    <>
+      <section className="relative z-0 shadow-md bg-cover bg-center min-h-screen flex items-center justify-center text-white">
       <div className="w-full h-screen">
         <Swiper
           modules={[Navigation, Pagination, Keyboard, Scrollbar, A11y, EffectFade, Autoplay]}
           navigation={true}
           effect="fade"
           keyboard={{ enabled: true }}
-          // autoplay={{
-          //   delay: 5000, // 5 saniyede bir geçiş
-          //   disableOnInteraction: false, // Kullanıcı dokunsa bile devam etsin
-          // }}
+          autoplay={{
+            delay: 5000, // 5 saniyede bir geçiş
+            disableOnInteraction: false, // Kullanıcı dokunsa bile devam etsin
+          }}
           pagination={{ 
             clickable: true,
             dynamicBullets: true,
@@ -195,7 +197,7 @@ export default function Hero() {
 
       {/* Logo Kontrolü */}
       <AnimatePresence mode="wait">
-        {activeIndex !== 7 && activeIndex !== 8 && (
+        {activeIndex !== 6 && activeIndex !== 7 && (
           <motion.div
             key={`logo-${activeIndex}`}
             initial={{ x: -100, opacity: 0 }}
@@ -217,7 +219,7 @@ export default function Hero() {
 
       {/* Yazı Kontrolü */}
       <AnimatePresence mode="wait">
-        {activeIndex !== 8 && slides[activeIndex].text && (
+        {activeIndex !== 7 && slides[activeIndex].text && (
           <motion.div
             key={`text-${activeIndex}`}
             initial={{ opacity: 0, y: 30 }}
@@ -229,12 +231,81 @@ export default function Hero() {
             <TypewriterText 
               text={slides[activeIndex].text} 
               key={activeIndex}
+              animationKey={activeIndex}
             />
           </motion.div>
         )}
       </AnimatePresence>
 
+      {/* Video Açma Butonu (Önizlemeli) */}
+      <motion.button
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5 }}
+        onClick={() => setIsVideoOpen(true)}
+        className="absolute bottom-8 right-8 z-40 flex flex-col items-center gap-2 group"
+      >
+        <div className="relative w-40 h-24 md:w-56 md:h-32 rounded-2xl overflow-hidden border-2 border-white/30 shadow-[0_4px_20px_rgba(0,0,0,0.5)] group-hover:scale-105 group-hover:border-white transition-all bg-black/50">
+          <video 
+            src="/ENG-ÇUKURDERE TANITIM.mp4" 
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+            className="w-full h-full object-cover"
+          />
+          {/* Overlay Oynat İkonu */}
+          <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/10 transition-all">
+             <div className="w-12 h-12 md:w-14 md:h-14 bg-white/80 rounded-full flex items-center justify-center backdrop-blur-sm text-black shadow-lg">
+                <Play size={24} className="ml-1" />
+             </div>
+          </div>
+        </div>
+        <span className="font-semibold text-sm md:text-base tracking-wide whitespace-nowrap text-white drop-shadow-md bg-black/40 px-4 py-1 rounded-full backdrop-blur-sm border border-white/10 group-hover:bg-black/60 transition-colors">
+          {t("watchVideo")}
+        </span>
+      </motion.button>
+
       <div className="absolute bottom-0 left-0 w-full h-20 z-20"></div>
-    </section>
+      </section>
+
+      {/* Video Modal */}
+      <AnimatePresence>
+        {isVideoOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setIsVideoOpen(false)}
+            className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/90 backdrop-blur-md p-4 md:p-8"
+          >
+            {/* Sağ Üst Kapatma Butonu */}
+            <button 
+              onClick={() => setIsVideoOpen(false)}
+              className="absolute top-4 right-4 md:top-8 md:right-8 text-white transition-colors z-[110] p-2 bg-white/10 rounded-full hover:bg-white/20 border border-white/20"
+            >
+              <X size={32} />
+            </button>
+            
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0, y: 20 }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              exit={{ scale: 0.9, opacity: 0, y: 20 }}
+              transition={{ type: "spring", damping: 25, stiffness: 300 }}
+              onClick={(e) => e.stopPropagation()}
+              className="w-full max-w-5xl max-h-[85vh] aspect-video rounded-xl md:rounded-2xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.8)] relative bg-black border border-white/10"
+            >
+              <video 
+                src="/ENG-ÇUKURDERE TANITIM.mp4" 
+                controls 
+                autoPlay 
+                playsInline
+                className="w-full h-full object-contain bg-black"
+              />
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </>
   );
 }
