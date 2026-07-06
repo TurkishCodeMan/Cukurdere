@@ -22,7 +22,7 @@
     "slide5": "Az maliyet çok verimlilik",
     "slide6": "RC ters sirkülasyon sondaj hizmetleri sunar.",
     "slide7": "",
-    "slide8":"",
+    "slide8": "",
     "slideAlt1": "Slayt 1",
     "slideAlt2": "Slayt 2",
     "slideAlt3": "Slayt 3",
@@ -34,10 +34,10 @@
     "logoAlt": "Çukurdere Sondaj Logo",
     "text1": "olarak doğru ve verimli bir çalışmanın ancak güvenli ve sağlıklı bir çalışma ortamında gerçekleştirilebileceğine inanmaktayız.",
     "text2": "her zaman en iyi ekipmanları kullanarak modern ve yenilikçi sondaj çözümleri sunar.",
-    "text3":"Genişleyen iş ağı",
-    "text4":"Öncelik iş güvenliğimiz",
-    "text5":"Az maliyet çok verimlilik",
-    "text6":"Potansiyeli keşfederiz",
+    "text3": "Genişleyen iş ağı",
+    "text4": "Öncelik iş güvenliğimiz",
+    "text5": "Az maliyet çok verimlilik",
+    "text6": "Potansiyeli keşfederiz",
     "machines": "Makinalarımız",
     "quality_policy": "Kalite Politikamız",
     "isg_and_environment": "İSG Ve Çevre",
@@ -79,7 +79,7 @@
     "messagePlaceholder": "Mesajınız",
     "submitButton": "Gönder"
   },
-  "isg":{
+  "isg": {
     "title": "İş Sağlığı ve Güvenliği",
     "subtitle": "Çukurdere Sondaj olarak, doğru ve verimli bir çalışmanın ancak güvenli ve sağlıklı bir çalışma ortamında gerçekleştirilebileceğine inanmaktayız.",
     "paragraph1": "Çukurdere Sondaj, tüm süreçlerde Ulusal ve Uluslararası yasal düzenlemelere, iş sağlığı ve güvenliği ile ilgili kanun, mevzuat ve diğer yükümlülüklere uymayı, sektörel ve teknolojik gelişmeleri takip ederek oluşabilecek iş kazalarını önlemeyi, iş sağlığı ve güvenliği performansını sürekli olarak geliştirmeyi, tüm ekipmanları en doğru ve en verimli şekilde kullanmayı, çalışılacak projelerin başlangıcından bitimine kadar oluşabilecek iş kazalarının önceden analiz ve değerlendirilmesini yaparak gerekli ekipmanlarla önlemler almayı en üst biriminden en alt birimine kadar tüm çalışanlarımızın iş sağlığı ve güvenliği konusunda eğitimler almasını sağlar.",
@@ -178,23 +178,91 @@
   "references": {
     "title": "Referanslar",
     "items": [
-      { "src": "/alacer.png", "alt": "Alacer Gold", "name": "Alacer Gold" },
-      { "src": "/altintepe.png", "alt": "Altıntepe Madencilik", "name": "Altıntepe Madencilik" },
-      { "src": "/anagold.png", "alt": "Anagold Madencilik", "name": "Anagold Madencilik" },
-      { "src": "/bahar.png", "alt": "Bahar Madencilik", "name": "Bahar Madencilik" },
-      { "src": "/demir.png", "alt": "Demir Export", "name": "Demir Export" },
-      { "src": "/path/to/elittas_logo.png", "alt": "Elittaş Madencilik", "name": "Elittaş Madencilik" },
-      { "src": "/limak.png", "alt": "Limak", "name": "Limak" },
-      { "src": "/kangal.png", "alt": "Kangal Termik A.Ş", "name": "Kangal Termik A.Ş" },
-      { "src": "/teck.png", "alt": "Teck Mining", "name": "Teck Madencilik" },
-      { "src": "/dimin.png", "alt": "Dimin Mining", "name": "Dimin Madencilik" },
-      { "src": "/ilci.png", "alt": "İlci Holding", "name": "İlci Holding" },
-      { "src": "/olmez.png", "alt": "Ölmez Madencilik", "name": "Ölmez Madencilik" },
-      { "src": "/dmineral.png", "alt": "D-Mineral Madencilik", "name": "D-Mineral Madencilik" },
-      { "src": "/mta.png", "alt": "MTA", "name": "MTA" },
-      { "src": "/altınordu.png", "alt": "Altınordu Madencilik", "name": "Altınordu Madencilik" },
-      { "src": "/nexus.png", "alt": "Nexus Madencilik", "name": "Nexus Madencilik" },
-      { "src": "/yon.png", "alt": "Yön Çinkur Madencilik", "name": "Yön Çinkur Madencilik" }
+      {
+        "src": "/alacer.png",
+        "alt": "Alacer Gold",
+        "name": "Alacer Gold"
+      },
+      {
+        "src": "/altintepe.png",
+        "alt": "Altıntepe Madencilik",
+        "name": "Altıntepe Madencilik"
+      },
+      {
+        "src": "/anagold.png",
+        "alt": "Anagold Madencilik",
+        "name": "Anagold Madencilik"
+      },
+      {
+        "src": "/bahar.png",
+        "alt": "Bahar Madencilik",
+        "name": "Bahar Madencilik"
+      },
+      {
+        "src": "/demir.png",
+        "alt": "Demir Export",
+        "name": "Demir Export"
+      },
+      {
+        "src": "/path/to/elittas_logo.png",
+        "alt": "Elittaş Madencilik",
+        "name": "Elittaş Madencilik"
+      },
+      {
+        "src": "/limak.png",
+        "alt": "Limak",
+        "name": "Limak"
+      },
+      {
+        "src": "/kangal.png",
+        "alt": "Kangal Termik A.Ş",
+        "name": "Kangal Termik A.Ş"
+      },
+      {
+        "src": "/teck.png",
+        "alt": "Teck Mining",
+        "name": "Teck Madencilik"
+      },
+      {
+        "src": "/dimin.png",
+        "alt": "Dimin Mining",
+        "name": "Dimin Madencilik"
+      },
+      {
+        "src": "/ilci.png",
+        "alt": "İlci Holding",
+        "name": "İlci Holding"
+      },
+      {
+        "src": "/olmez.png",
+        "alt": "Ölmez Madencilik",
+        "name": "Ölmez Madencilik"
+      },
+      {
+        "src": "/dmineral.png",
+        "alt": "D-Mineral Madencilik",
+        "name": "D-Mineral Madencilik"
+      },
+      {
+        "src": "/mta.png",
+        "alt": "MTA",
+        "name": "MTA"
+      },
+      {
+        "src": "/altınordu.png",
+        "alt": "Altınordu Madencilik",
+        "name": "Altınordu Madencilik"
+      },
+      {
+        "src": "/nexus.png",
+        "alt": "Nexus Madencilik",
+        "name": "Nexus Madencilik"
+      },
+      {
+        "src": "/yon.png",
+        "alt": "Yön Çinkur Madencilik",
+        "name": "Yön Çinkur Madencilik"
+      }
     ]
   },
   "services": {
@@ -252,7 +320,6 @@
     "canonical": "https://www.cukurderesondaj.com.tr/home",
     "googleVerification": "GVV3xd9PB7n23bvfDQ4PEb1Lmk3GMpOM_bUhDyDEPog"
   },
-
   "footer": {
     "customerInfo": "İletişim Bilgileri",
     "phone": "Tel",
@@ -272,7 +339,6 @@
     "cityCountry": "Ostim/Yenimahalle, Ankara - Türkiye",
     "copyright": "© 2024 Çukurdere Sondaj. All Rights Reserved."
   },
-
   "vision": {
     "title": "Vizyon Misyon",
     "whoWeAre": "Güvenin, Tecrübenin ve Profesyonelliğin Adı",
@@ -297,5 +363,4 @@
       "Daha iyiyi ve mükemmeli hedeflemek."
     ]
   }
-  
 }
