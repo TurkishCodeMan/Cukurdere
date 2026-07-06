@@ -14,8 +14,20 @@ const AboutUs = () => {
               <p className="text-gray-600 mb-6">
                 {t('whoWeAreText1')}
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-600 mb-6">
                 {t('whoWeAreText2')}
+              </p>
+              <p className="text-gray-600 mb-6">
+                {t('whoWeAreText3')}
+              </p>
+              <p className="text-gray-600 mb-6">
+                {t('whoWeAreText4')}
+              </p>
+              <p className="text-gray-600 mb-6">
+                {t('whoWeAreText5')}
+              </p>
+              <p className="text-gray-600">
+                {t('whoWeAreText6')}
               </p>
               <h3 className="text-2xl font-semibold mb-4 text-red-800">{t('vision')}</h3>
               <p className="text-lg text-gray-700 mb-4">
