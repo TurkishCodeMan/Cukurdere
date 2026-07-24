@@ -15,6 +15,7 @@
     "corporate": "KURUMSAL"
   },
   "hero": {
+    "slide0": "",
     "slide1": "Olarak doğru ve verimli bir çalışmanın ancak güvenli ve sağlıklı bir çalışma ortamında gerçekleştirileceğine inanırız",
     "slide2": "Kaliteli ekipman modern ve yenilikçi sondaj çözümleri sunar.",
     "slide3": "Genişleyen iş ağı",
@@ -23,6 +24,7 @@
     "slide6": "RC ters sirkülasyon sondaj hizmetleri sunar.",
     "slide7": "",
     "slide8": "",
+    "slideAlt0": "Slayt 0",
     "slideAlt1": "Slayt 1",
     "slideAlt2": "Slayt 2",
     "slideAlt3": "Slayt 3",

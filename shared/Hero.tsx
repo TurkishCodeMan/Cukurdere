@@ -80,7 +80,7 @@ const SlideContent = ({
   setIsMuted: (val: boolean) => void
 }) => {
   const isActive = index === currentIndex;
-  const isSpecialSlide = !isVideo && (index === 7 || index === 8); 
+  const isSpecialSlide = !isVideo && (index === 8 || index === 9); 
   const objectFitClass = isSpecialSlide ? "object-fill" : "object-cover";
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -130,6 +130,7 @@ export default function Hero() {
   const t = useTranslations("hero");
 
   const slides = [
+    { type: "image", src: "/dc.jpg", text: t("slide0"), alt: t("slideAlt0") },
     // { type: "video", src: "/tanitim_compressed.mp4", text: "" }, 
     { type: "image", src: "/1.png", text: t("slide1"), alt: t("slideAlt1") },
     { type: "image", src: "/2.png", text: t("slide2"), alt: t("slideAlt2") },
@@ -197,7 +198,7 @@ export default function Hero() {
 
       {/* Logo Kontrolü */}
       <AnimatePresence mode="wait">
-        {activeIndex !== 6 && activeIndex !== 7 && (
+        {activeIndex !== 7 && activeIndex !== 8 && (
           <motion.div
             key={`logo-${activeIndex}`}
             initial={{ x: -100, opacity: 0 }}
@@ -219,7 +220,7 @@ export default function Hero() {
 
       {/* Yazı Kontrolü */}
       <AnimatePresence mode="wait">
-        {activeIndex !== 7 && slides[activeIndex].text && (
+        {activeIndex !== 8 && slides[activeIndex].text && (
           <motion.div
             key={`text-${activeIndex}`}
             initial={{ opacity: 0, y: 30 }}
